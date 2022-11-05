@@ -1,0 +1,2261 @@
+<!DOCTYPE html>
+<html style="" class="applicationcache geolocation history postmessage svg websockets localstorage sessionstorage no-websqldatabase webworkers hashchange pointerevents canvas audio canvastext video webgl cssgradients multiplebgs opacity rgba inlinesvg hsla supports svgclippaths smil touchevents fontface generatedcontent textshadow cssanimations backgroundsize borderimage borderradius boxshadow csscolumns csscolumns-width no-csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth no-csscolumns-breakbefore no-csscolumns-breakafter no-csscolumns-breakinside flexbox flexboxlegacy no-cssreflections csstransforms csstransforms3d csstransitions indexeddb indexeddb-deletedatabase js ibm-v18 ibm-cxtype-na no-hires linux firefox firefox5 gecko gecko5 ibm-grid-xlarge" lang="en-US"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<!-- SITE MON : START (DO NOT DELETE) -->
+	<!-- developerWorks monitoring token -->
+	<!-- SITE MON : END (DO NOT DELETE) -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- v18 meta -->
+	<meta name="geo.country" content="ZZ">
+	<meta name="dcterms.rights" content="© Copyright IBM Corp. 2016">
+	<meta name="dcterms.date" content="2016-07-18">
+	<meta name="keywords" content="">
+	<meta name="robots" content="index, follow">
+	<link rel="shortcut icon" href="https://www.ibm.com/favicon.ico">
+
+		<!-- end of v18 meta -->
+
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://developer.ibm.com/integration/xmlrpc.php">
+<script type="text/javascript" async="" charset="utf-8" id="utag_19" src="resequence_files/hotjar-42920.js"></script><script type="text/javascript" async="" charset="utf-8" id="utag_98" src="resequence_files/atrk.js"></script><script type="text/javascript" async="" charset="utf-8" id="utag_53" src="resequence_files/js"></script><script type="text/javascript" async="" charset="utf-8" id="tealium_cormetrics2" src="resequence_files/eluminate.js"></script><script type="text/javascript" async="" charset="utf-8" id="dle_api_c1fdfcdef751848cd79a8f4ac54122a2c7ebe4c62283b3fcd2945cef1bb8fbc6" src="resequence_files/p_c1fdfcdef751848cd79a8f4ac54122a2c7ebe4c62283b3fcd2945cef1bb.js"></script><script src="resequence_files/p_dwnext.js" type="application/javascript" async=""></script><script src="resequence_files/callbackdl.js" type="application/javascript" async=""></script><script async="" src="resequence_files/analytics.js"></script><script src="resequence_files/utag.js" type="text/javascript" async=""></script><script id="twitter-wjs" src="resequence_files/widgets.js"></script><script>
+		 digitalData = {
+		  "page":{
+		    "category":{
+		      "primaryCategory":"SOFDCIIBZZ",		      "ibm":[
+
+		      ]
+		    },
+		    "pageInfo":{
+		      "effectiveDate":"2016-07-18",
+		      "expiryDate":"2020-07-18",
+		      "language":"en-US",
+		      "publishDate":"2016-08-09",
+		      "publisher":"IBM Corporation",
+		      "version":"v18",
+		      "pageID":"",
+		      "ibm":{
+						"contentDelivery":"HTML",
+		        "contentProducer":"IBM Northstar Template Generator 2.0",
+		        "country":"ZZ",
+		        "industry":"ZZ",
+		        "owner":"Jamie Pickett\/Boulder\/IBM",
+		        "siteID":"DWNEXT",
+						"subject":"SW700",
+		        "type":"SW700",
+		        "cmClientID":"50200000| DWNEXT",
+		        "encoding":"utf8",
+		        "encodingRaw":"utf-8",
+		        "title":"IBM Integration",
+						"contentType": "page",
+						"wpid":"25",
+						"topics":"",
+						"contentArea": ""
+		      },
+		      "metrics":[
+
+		      ],
+		      "keywords":"",
+		      "description":"IBM Integration - Quick and easy integration for heterogenous IT systems."
+		    },
+		    "attributes":[
+
+		    ],
+		  },
+		  "event_coordinator":[
+
+		  ],
+		  "isLoaded":true,
+		  "user":{
+		    "profile":[
+
+		    ],
+		    "segment":{
+
+		    }
+		  }
+		};
+	 </script>
+<title>IBM Integration Bus v10 tutorials on Github - IBM Integration</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v4.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/">
+<!-- / Yoast SEO plugin. -->
+
+<link rel="dns-prefetch" href="https://1.www.s81c.com/">
+<link rel="dns-prefetch" href="https://s0.wp.com/">
+<link rel="dns-prefetch" href="https://secure.gravatar.com/">
+<link rel="dns-prefetch" href="https://www.ibm.com/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="IBM Integration » Feed" href="https://developer.ibm.com/integration/feed/">
+<link rel="alternate" type="application/rss+xml" title="IBM Integration » Comments Feed" href="https://developer.ibm.com/integration/comments/feed/">
+<meta name="segment" property="developerWorks (developerWorks)" producttitle="developerWorks" value="IBM Integration (developerWorks)">
+<link rel="alternate" type="application/rss+xml" title="IBM Integration » IBM Integration Bus v10 tutorials on Github Comments Feed" href="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"\/\/dw1.s81c.com\/dw\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="resequence_files/wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="events-manager-css" href="resequence_files/events_manager.css" type="text/css" media="all">
+<link rel="stylesheet" id="tab-styles-css" href="resequence_files/tab-styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="rotatingtweets-css" href="resequence_files/style_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="dwboomer-style-css" href="resequence_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="resequence_files/dashicons.css" type="text/css" media="all">
+<link rel="stylesheet" id="pagepost_css-css" href="resequence_files/pagepost.css" type="text/css" media="all">
+<style id="pagepost_css-inline-css" type="text/css">
+div#intro {
+  margin-bottom: 2.5em;
+}
+
+.pseudolink { 
+   color: #495db3;; 
+   cursor:pointer; 
+}
+
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 0.8em;
+  z-index: 1001 !important;
+}
+
+.icon-image {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d8d8d8;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    background: #f2f2f2;
+    color: #333;
+	height: 30px;
+}
+
+.content-details {
+    float: left;
+}
+
+.columns {
+    float: left;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+.tutorial {
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	border-top: 2px solid rgb(102, 102, 102);
+}
+
+.tutorial > h3 {
+	margin: .25em 0;
+	padding: 0;
+	font-weight: bold;
+	text-transform: none;
+	color: #000;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+}
+
+.content-details h4, .content-details h5 {margin-top: 1pc; margin-bottom: .17em; font-size: 1.17em; font-weight: bold; }
+.content-details p {margin-top: 1pc; margin-bottom: .17em; }
+.content-details ol {list-style: outside none decimal; margin-left: 1.5em;}
+.content-details ol li {margin-bottom: .5em}
+.content-details a {color: #495db3; cursor:pointer; }
+.detailsdiv h4, .detailsdiv h5 {margin-top: 1pc; margin-bottom: .17em; font-size: 1.17em; font-weight: bold; }
+.detailsdiv p {margin-top: 1pc; margin-bottom: .17em; }
+.detailsdiv ol {list-style: outside none decimal; margin-left: 1.5em;}
+.detailsdiv ol li {margin-bottom: .5em}
+.detailsdiv a {color: #495db3; cursor:pointer; }
+code, kbd, pre, samp, .systemoutput, .userinput, .msgph, .filepath, .option, .parmname, .property {font-family: monospace,monospace; font-size: 1.2em; }
+/*! jQuery UI - v1.11.4 - 2015-03-11
+* http://jqueryui.com
+* Includes: core.css, accordion.css, autocomplete.css, button.css, datepicker.css, dialog.css, draggable.css, menu.css, progressbar.css, resizable.css, selectable.css, selectmenu.css, slider.css, sortable.css, spinner.css, tabs.css, tooltip.css, theme.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Verdana%2CArial%2Csans-serif&fwDefault=normal&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=cccccc&bgTextureHeader=highlight_soft&bgImgOpacityHeader=75&borderColorHeader=aaaaaa&fcHeader=222222&iconColorHeader=222222&bgColorContent=ffffff&bgTextureContent=flat&bgImgOpacityContent=75&borderColorContent=aaaaaa&fcContent=222222&iconColorContent=222222&bgColorDefault=e6e6e6&bgTextureDefault=glass&bgImgOpacityDefault=75&borderColorDefault=d3d3d3&fcDefault=555555&iconColorDefault=888888&bgColorHover=dadada&bgTextureHover=glass&bgImgOpacityHover=75&borderColorHover=999999&fcHover=212121&iconColorHover=454545&bgColorActive=ffffff&bgTextureActive=glass&bgImgOpacityActive=65&borderColorActive=aaaaaa&fcActive=212121&iconColorActive=454545&bgColorHighlight=fbf9ee&bgTextureHighlight=glass&bgImgOpacityHighlight=55&borderColorHighlight=fcefa1&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=glass&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px
+* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden {
+	display: none;
+}
+.ui-helper-hidden-accessible {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+.ui-helper-reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1.3;
+	text-decoration: none;
+	font-size: 100%;
+	list-style: none;
+}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+	content: "";
+	display: table;
+	border-collapse: collapse;
+}
+.ui-helper-clearfix:after {
+	clear: both;
+}
+.ui-helper-clearfix {
+	min-height: 0; /* support: IE7 */
+}
+.ui-helper-zfix {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0;
+	filter:Alpha(Opacity=0); /* support: IE8 */
+}
+
+.ui-front {
+	z-index: 100;
+}
+
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+	cursor: default !important;
+}
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: .5em .5em .5em .7em;
+	min-height: 0; /* support: IE7 */
+	font-size: 100%;
+}
+.ui-accordion .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 1em 2.2em;
+	border-top: 0;
+	overflow: auto;
+}
+.ui-autocomplete {
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: default;
+}
+.ui-button {
+	display: inline-block;
+	position: relative;
+	padding: 0;
+	line-height: normal;
+	margin-right: .1em;
+	cursor: pointer;
+	vertical-align: middle;
+	text-align: center;
+	overflow: visible; /* removes extra width in IE */
+}
+.ui-button,
+.ui-button:link,
+.ui-button:visited,
+.ui-button:hover,
+.ui-button:active {
+	text-decoration: none;
+}
+/* to make room for the icon, a width needs to be set here */
+.ui-button-icon-only {
+	width: 2.2em;
+}
+/* button elements seem to need a little more width */
+button.ui-button-icon-only {
+	width: 2.4em;
+}
+.ui-button-icons-only {
+	width: 3.4em;
+}
+button.ui-button-icons-only {
+	width: 3.7em;
+}
+
+/* button text element */
+.ui-button .ui-button-text {
+	display: block;
+	line-height: normal;
+}
+.ui-button-text-only .ui-button-text {
+	padding: .4em 1em;
+}
+.ui-button-icon-only .ui-button-text,
+.ui-button-icons-only .ui-button-text {
+	padding: .4em;
+	text-indent: -9999999px;
+}
+.ui-button-text-icon-primary .ui-button-text,
+.ui-button-text-icons .ui-button-text {
+	padding: .4em 1em .4em 2.1em;
+}
+.ui-button-text-icon-secondary .ui-button-text,
+.ui-button-text-icons .ui-button-text {
+	padding: .4em 2.1em .4em 1em;
+}
+.ui-button-text-icons .ui-button-text {
+	padding-left: 2.1em;
+	padding-right: 2.1em;
+}
+/* no icon support for input elements, provide padding by default */
+input.ui-button {
+	padding: .4em 1em;
+}
+
+/* button icon element(s) */
+.ui-button-icon-only .ui-icon,
+.ui-button-text-icon-primary .ui-icon,
+.ui-button-text-icon-secondary .ui-icon,
+.ui-button-text-icons .ui-icon,
+.ui-button-icons-only .ui-icon {
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-button-icon-only .ui-icon {
+	left: 50%;
+	margin-left: -8px;
+}
+.ui-button-text-icon-primary .ui-button-icon-primary,
+.ui-button-text-icons .ui-button-icon-primary,
+.ui-button-icons-only .ui-button-icon-primary {
+	left: .5em;
+}
+.ui-button-text-icon-secondary .ui-button-icon-secondary,
+.ui-button-text-icons .ui-button-icon-secondary,
+.ui-button-icons-only .ui-button-icon-secondary {
+	right: .5em;
+}
+
+/* button sets */
+.ui-buttonset {
+	margin-right: 7px;
+}
+.ui-buttonset .ui-button {
+	margin-left: 0;
+	margin-right: -.3em;
+}
+
+/* workarounds */
+/* reset extra padding in Firefox, see h5bp.com/l */
+input.ui-button::-moz-focus-inner,
+button.ui-button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+.ui-datepicker {
+	width: 17em;
+	padding: .2em .2em 0;
+	display: none;
+}
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: .2em 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 2px;
+	width: 1.8em;
+	height: 1.8em;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+	top: 1px;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	right: 2px;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+	left: 1px;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	right: 1px;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -8px;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0 2.3em;
+	line-height: 1.8em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin: 1px 0;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width: 45%;
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+}
+.ui-datepicker th {
+	padding: .7em .3em;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+}
+.ui-datepicker td {
+	border: 0;
+	padding: 1px;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: .2em;
+	text-align: right;
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	width: auto;
+	overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+	width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+	width: 95%;
+	margin: 0 auto .4em;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+.ui-datepicker-row-break {
+	clear: both;
+	width: 100%;
+	font-size: 0;
+}
+
+/* RTL support */
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+	right: 2px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+	left: 2px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+	right: 1px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+	left: 1px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+	clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+	float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+	border-right-width: 0;
+	border-left-width: 1px;
+}
+.ui-dialog {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: .2em;
+	outline: 0;
+}
+.ui-dialog .ui-dialog-titlebar {
+	padding: .4em 1em;
+	position: relative;
+}
+.ui-dialog .ui-dialog-title {
+	float: left;
+	margin: .1em 0;
+	white-space: nowrap;
+	width: 90%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+	position: absolute;
+	right: .3em;
+	top: 50%;
+	width: 20px;
+	margin: -10px 0 0 0;
+	padding: 1px;
+	height: 20px;
+}
+.ui-dialog .ui-dialog-content {
+	position: relative;
+	border: 0;
+	padding: .5em 1em;
+	background: none;
+	overflow: auto;
+}
+.ui-dialog .ui-dialog-buttonpane {
+	text-align: left;
+	border-width: 1px 0 0 0;
+	background-image: none;
+	margin-top: .5em;
+	padding: .3em 1em .5em .4em;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: right;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+	margin: .5em .4em .5em 0;
+	cursor: pointer;
+}
+.ui-dialog .ui-resizable-se {
+	width: 12px;
+	height: 12px;
+	right: -5px;
+	bottom: -5px;
+	background-position: 16px 16px;
+}
+.ui-draggable .ui-dialog-titlebar {
+	cursor: move;
+}
+.ui-draggable-handle {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.ui-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	outline: none;
+}
+.ui-menu .ui-menu {
+	position: absolute;
+}
+.ui-menu .ui-menu-item {
+	position: relative;
+	margin: 0;
+	padding: 3px 1em 3px .4em;
+	cursor: pointer;
+	min-height: 0; /* support: IE7 */
+	/* support: IE10, see #8844 */
+	list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+}
+.ui-menu .ui-menu-divider {
+	margin: 5px 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	border-width: 1px 0 0 0;
+}
+.ui-menu .ui-state-focus,
+.ui-menu .ui-state-active {
+	margin: -1px;
+}
+
+/* icon support */
+.ui-menu-icons {
+	position: relative;
+}
+.ui-menu-icons .ui-menu-item {
+	padding-left: 2em;
+}
+
+/* left-aligned */
+.ui-menu .ui-icon {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: .2em;
+	margin: auto 0;
+}
+
+/* right-aligned */
+.ui-menu .ui-menu-icon {
+	left: auto;
+	right: 0;
+}
+.ui-progressbar {
+	height: 2em;
+	text-align: left;
+	overflow: hidden;
+}
+.ui-progressbar .ui-progressbar-value {
+	margin: -1px;
+	height: 100%;
+}
+.ui-progressbar .ui-progressbar-overlay {
+	background: url("data:image/gif;base64,R0lGODlhKAAoAIABAAAAAP///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJAQABACwAAAAAKAAoAAACkYwNqXrdC52DS06a7MFZI+4FHBCKoDeWKXqymPqGqxvJrXZbMx7Ttc+w9XgU2FB3lOyQRWET2IFGiU9m1frDVpxZZc6bfHwv4c1YXP6k1Vdy292Fb6UkuvFtXpvWSzA+HycXJHUXiGYIiMg2R6W459gnWGfHNdjIqDWVqemH2ekpObkpOlppWUqZiqr6edqqWQAAIfkECQEAAQAsAAAAACgAKAAAApSMgZnGfaqcg1E2uuzDmmHUBR8Qil95hiPKqWn3aqtLsS18y7G1SzNeowWBENtQd+T1JktP05nzPTdJZlR6vUxNWWjV+vUWhWNkWFwxl9VpZRedYcflIOLafaa28XdsH/ynlcc1uPVDZxQIR0K25+cICCmoqCe5mGhZOfeYSUh5yJcJyrkZWWpaR8doJ2o4NYq62lAAACH5BAkBAAEALAAAAAAoACgAAAKVDI4Yy22ZnINRNqosw0Bv7i1gyHUkFj7oSaWlu3ovC8GxNso5fluz3qLVhBVeT/Lz7ZTHyxL5dDalQWPVOsQWtRnuwXaFTj9jVVh8pma9JjZ4zYSj5ZOyma7uuolffh+IR5aW97cHuBUXKGKXlKjn+DiHWMcYJah4N0lYCMlJOXipGRr5qdgoSTrqWSq6WFl2ypoaUAAAIfkECQEAAQAsAAAAACgAKAAAApaEb6HLgd/iO7FNWtcFWe+ufODGjRfoiJ2akShbueb0wtI50zm02pbvwfWEMWBQ1zKGlLIhskiEPm9R6vRXxV4ZzWT2yHOGpWMyorblKlNp8HmHEb/lCXjcW7bmtXP8Xt229OVWR1fod2eWqNfHuMjXCPkIGNileOiImVmCOEmoSfn3yXlJWmoHGhqp6ilYuWYpmTqKUgAAIfkECQEAAQAsAAAAACgAKAAAApiEH6kb58biQ3FNWtMFWW3eNVcojuFGfqnZqSebuS06w5V80/X02pKe8zFwP6EFWOT1lDFk8rGERh1TTNOocQ61Hm4Xm2VexUHpzjymViHrFbiELsefVrn6XKfnt2Q9G/+Xdie499XHd2g4h7ioOGhXGJboGAnXSBnoBwKYyfioubZJ2Hn0RuRZaflZOil56Zp6iioKSXpUAAAh+QQJAQABACwAAAAAKAAoAAACkoQRqRvnxuI7kU1a1UU5bd5tnSeOZXhmn5lWK3qNTWvRdQxP8qvaC+/yaYQzXO7BMvaUEmJRd3TsiMAgswmNYrSgZdYrTX6tSHGZO73ezuAw2uxuQ+BbeZfMxsexY35+/Qe4J1inV0g4x3WHuMhIl2jXOKT2Q+VU5fgoSUI52VfZyfkJGkha6jmY+aaYdirq+lQAACH5BAkBAAEALAAAAAAoACgAAAKWBIKpYe0L3YNKToqswUlvznigd4wiR4KhZrKt9Upqip61i9E3vMvxRdHlbEFiEXfk9YARYxOZZD6VQ2pUunBmtRXo1Lf8hMVVcNl8JafV38aM2/Fu5V16Bn63r6xt97j09+MXSFi4BniGFae3hzbH9+hYBzkpuUh5aZmHuanZOZgIuvbGiNeomCnaxxap2upaCZsq+1kAACH5BAkBAAEALAAAAAAoACgAAAKXjI8By5zf4kOxTVrXNVlv1X0d8IGZGKLnNpYtm8Lr9cqVeuOSvfOW79D9aDHizNhDJidFZhNydEahOaDH6nomtJjp1tutKoNWkvA6JqfRVLHU/QUfau9l2x7G54d1fl995xcIGAdXqMfBNadoYrhH+Mg2KBlpVpbluCiXmMnZ2Sh4GBqJ+ckIOqqJ6LmKSllZmsoq6wpQAAAh+QQJAQABACwAAAAAKAAoAAAClYx/oLvoxuJDkU1a1YUZbJ59nSd2ZXhWqbRa2/gF8Gu2DY3iqs7yrq+xBYEkYvFSM8aSSObE+ZgRl1BHFZNr7pRCavZ5BW2142hY3AN/zWtsmf12p9XxxFl2lpLn1rseztfXZjdIWIf2s5dItwjYKBgo9yg5pHgzJXTEeGlZuenpyPmpGQoKOWkYmSpaSnqKileI2FAAACH5BAkBAAEALAAAAAAoACgAAAKVjB+gu+jG4kORTVrVhRlsnn2dJ3ZleFaptFrb+CXmO9OozeL5VfP99HvAWhpiUdcwkpBH3825AwYdU8xTqlLGhtCosArKMpvfa1mMRae9VvWZfeB2XfPkeLmm18lUcBj+p5dnN8jXZ3YIGEhYuOUn45aoCDkp16hl5IjYJvjWKcnoGQpqyPlpOhr3aElaqrq56Bq7VAAAOw==");
+	height: 100%;
+	filter: alpha(opacity=25); /* support: IE8 */
+	opacity: 0.25;
+}
+.ui-progressbar-indeterminate .ui-progressbar-value {
+	background-image: none;
+}
+.ui-resizable {
+	position: relative;
+}
+.ui-resizable-handle {
+	position: absolute;
+	font-size: 0.1px;
+	display: block;
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.ui-resizable-disabled .ui-resizable-handle,
+.ui-resizable-autohide .ui-resizable-handle {
+	display: none;
+}
+.ui-resizable-n {
+	cursor: n-resize;
+	height: 7px;
+	width: 100%;
+	top: -5px;
+	left: 0;
+}
+.ui-resizable-s {
+	cursor: s-resize;
+	height: 7px;
+	width: 100%;
+	bottom: -5px;
+	left: 0;
+}
+.ui-resizable-e {
+	cursor: e-resize;
+	width: 7px;
+	right: -5px;
+	top: 0;
+	height: 100%;
+}
+.ui-resizable-w {
+	cursor: w-resize;
+	width: 7px;
+	left: -5px;
+	top: 0;
+	height: 100%;
+}
+.ui-resizable-se {
+	cursor: se-resize;
+	width: 12px;
+	height: 12px;
+	right: 1px;
+	bottom: 1px;
+}
+.ui-resizable-sw {
+	cursor: sw-resize;
+	width: 9px;
+	height: 9px;
+	left: -5px;
+	bottom: -5px;
+}
+.ui-resizable-nw {
+	cursor: nw-resize;
+	width: 9px;
+	height: 9px;
+	left: -5px;
+	top: -5px;
+}
+.ui-resizable-ne {
+	cursor: ne-resize;
+	width: 9px;
+	height: 9px;
+	right: -5px;
+	top: -5px;
+}
+.ui-selectable {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.ui-selectable-helper {
+	position: absolute;
+	z-index: 100;
+	border: 1px dotted black;
+}
+.ui-selectmenu-menu {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.ui-selectmenu-menu .ui-menu {
+	overflow: auto;
+	/* Support: IE7 */
+	overflow-x: hidden;
+	padding-bottom: 1px;
+}
+.ui-selectmenu-menu .ui-menu .ui-selectmenu-optgroup {
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.5;
+	padding: 2px 0.4em;
+	margin: 0.5em 0 0 0;
+	height: auto;
+	border: 0;
+}
+.ui-selectmenu-open {
+	display: block;
+}
+.ui-selectmenu-button {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+	cursor: pointer;
+}
+.ui-selectmenu-button span.ui-icon {
+	right: 0.5em;
+	left: auto;
+	margin-top: -8px;
+	position: absolute;
+	top: 50%;
+}
+.ui-selectmenu-button span.ui-selectmenu-text {
+	text-align: left;
+	padding: 0.4em 2.1em 0.4em 1em;
+	display: block;
+	line-height: 1.4;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+
+/* support: IE8 - See #6727 */
+.ui-slider.ui-state-disabled .ui-slider-handle,
+.ui-slider.ui-state-disabled .ui-slider-range {
+	filter: inherit;
+}
+
+.ui-slider-horizontal {
+	height: .8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.6em;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+
+.ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}
+.ui-sortable-handle {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.ui-spinner {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	padding: 0;
+	vertical-align: middle;
+}
+.ui-spinner-input {
+	border: none;
+	background: none;
+	color: inherit;
+	padding: 0;
+	margin: .2em 0;
+	vertical-align: middle;
+	margin-left: .4em;
+	margin-right: 22px;
+}
+.ui-spinner-button {
+	width: 16px;
+	height: 50%;
+	font-size: .5em;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	position: absolute;
+	cursor: default;
+	display: block;
+	overflow: hidden;
+	right: 0;
+}
+/* more specificity required here to override default borders */
+.ui-spinner a.ui-spinner-button {
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+}
+/* vertically center icon */
+.ui-spinner .ui-icon {
+	position: absolute;
+	margin-top: -8px;
+	top: 50%;
+	left: 0;
+}
+.ui-spinner-up {
+	top: 0;
+}
+.ui-spinner-down {
+	bottom: 0;
+}
+
+/* TR overrides */
+.ui-spinner .ui-icon-triangle-1-s {
+	/* need to fix icons sprite */
+	background-position: -65px -16px;
+}
+.ui-tabs {
+	position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+	padding: .2em;
+}
+.ui-tabs .ui-tabs-nav {
+	margin: 0;
+	padding: .2em .2em 0;
+}
+.ui-tabs .ui-tabs-nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 0;
+	margin: 1px .2em 0 0;
+	border-bottom-width: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+	float: left;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	margin-bottom: -1px;
+	padding-bottom: 1px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+	cursor: text;
+}
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+	cursor: pointer;
+}
+.ui-tabs .ui-tabs-panel {
+	display: block;
+	border-width: 0;
+	padding: 1em 1.4em;
+	background: none;
+}
+.ui-tooltip {
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+}
+body .ui-tooltip {
+	border-width: 2px;
+}
+
+/* Component containers
+----------------------------------*/
+.ui-widget {
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 1.1em;
+}
+.ui-widget .ui-widget {
+	font-size: 1em;
+}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 1em;
+}
+.ui-widget-content {
+	border: 1px solid #aaaaaa;
+	background: #ffffff url("images/ui-bg_flat_75_ffffff_40x100.png") 50% 50% repeat-x;
+	color: #222222;
+}
+.ui-widget-content a {
+	color: #222222;
+}
+.ui-widget-header {
+	border: 1px solid #aaaaaa;
+	background: #cccccc url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x;
+	color: #222222;
+	font-weight: bold;
+}
+.ui-widget-header a {
+	color: #222222;
+}
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	border: 1px solid #d3d3d3;
+	background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
+	font-weight: normal;
+	color: #555555;
+}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+	color: #555555;
+	text-decoration: none;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border: 1px solid #999999;
+	background: #dadada url("images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
+	font-weight: normal;
+	color: #212121;
+}
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited,
+.ui-state-focus a,
+.ui-state-focus a:hover,
+.ui-state-focus a:link,
+.ui-state-focus a:visited {
+	color: #212121;
+	text-decoration: none;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	border: 1px solid #aaaaaa;
+	background: #ffffff url("images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;
+	font-weight: normal;
+	color: #212121;
+}
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+	color: #212121;
+	text-decoration: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+	border: 1px solid #fcefa1;
+	background: #fbf9ee url("images/ui-bg_glass_55_fbf9ee_1x400.png") 50% 50% repeat-x;
+	color: #363636;
+}
+.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a,
+.ui-widget-header .ui-state-highlight a {
+	color: #363636;
+}
+.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error {
+	border: 1px solid #cd0a0a;
+	background: #fef1ec url("images/ui-bg_glass_95_fef1ec_1x400.png") 50% 50% repeat-x;
+	color: #cd0a0a;
+}
+.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error a {
+	color: #cd0a0a;
+}
+.ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text {
+	color: #cd0a0a;
+}
+.ui-priority-primary,
+.ui-widget-content .ui-priority-primary,
+.ui-widget-header .ui-priority-primary {
+	font-weight: bold;
+}
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary {
+	opacity: .7;
+	filter:Alpha(Opacity=70); /* support: IE8 */
+	font-weight: normal;
+}
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+	opacity: .35;
+	filter:Alpha(Opacity=35); /* support: IE8 */
+	background-image: none;
+}
+.ui-state-disabled .ui-icon {
+	filter:Alpha(Opacity=35); /* support: IE8 - See #6059 */
+}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	width: 16px;
+	height: 16px;
+}
+.ui-icon,
+.ui-widget-content .ui-icon {
+	background-image: url("images/ui-icons_222222_256x240.png");
+}
+.ui-widget-header .ui-icon {
+	background-image: url("images/ui-icons_222222_256x240.png");
+}
+.ui-state-default .ui-icon {
+	background-image: url("images/ui-icons_888888_256x240.png");
+}
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+	background-image: url("images/ui-icons_454545_256x240.png");
+}
+.ui-state-active .ui-icon {
+	background-image: url("images/ui-icons_454545_256x240.png");
+}
+.ui-state-highlight .ui-icon {
+	background-image: url("images/ui-icons_2e83ff_256x240.png");
+}
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon {
+	background-image: url("images/ui-icons_cd0a0a_256x240.png");
+}
+
+/* positioning */
+.ui-icon-blank { background-position: 16px 16px; }
+.ui-icon-carat-1-n { background-position: 0 0; }
+.ui-icon-carat-1-ne { background-position: -16px 0; }
+.ui-icon-carat-1-e { background-position: -32px 0; }
+.ui-icon-carat-1-se { background-position: -48px 0; }
+.ui-icon-carat-1-s { background-position: -64px 0; }
+.ui-icon-carat-1-sw { background-position: -80px 0; }
+.ui-icon-carat-1-w { background-position: -96px 0; }
+.ui-icon-carat-1-nw { background-position: -112px 0; }
+.ui-icon-carat-2-n-s { background-position: -128px 0; }
+.ui-icon-carat-2-e-w { background-position: -144px 0; }
+.ui-icon-triangle-1-n { background-position: 0 -16px; }
+.ui-icon-triangle-1-ne { background-position: -16px -16px; }
+.ui-icon-triangle-1-e { background-position: -32px -16px; }
+.ui-icon-triangle-1-se { background-position: -48px -16px; }
+.ui-icon-triangle-1-s { background-position: -64px -16px; }
+.ui-icon-triangle-1-sw { background-position: -80px -16px; }
+.ui-icon-triangle-1-w { background-position: -96px -16px; }
+.ui-icon-triangle-1-nw { background-position: -112px -16px; }
+.ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+.ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+.ui-icon-arrow-1-n { background-position: 0 -32px; }
+.ui-icon-arrow-1-ne { background-position: -16px -32px; }
+.ui-icon-arrow-1-e { background-position: -32px -32px; }
+.ui-icon-arrow-1-se { background-position: -48px -32px; }
+.ui-icon-arrow-1-s { background-position: -64px -32px; }
+.ui-icon-arrow-1-sw { background-position: -80px -32px; }
+.ui-icon-arrow-1-w { background-position: -96px -32px; }
+.ui-icon-arrow-1-nw { background-position: -112px -32px; }
+.ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+.ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+.ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+.ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+.ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+.ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+.ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+.ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+.ui-icon-arrowthick-1-n { background-position: 0 -48px; }
+.ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+.ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+.ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+.ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+.ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+.ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+.ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+.ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+.ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+.ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+.ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+.ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+.ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+.ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+.ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+.ui-icon-arrowreturnthick-1-w { background-position: 0 -64px; }
+.ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+.ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+.ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+.ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+.ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+.ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+.ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+.ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+.ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+.ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+.ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+.ui-icon-arrow-4 { background-position: 0 -80px; }
+.ui-icon-arrow-4-diag { background-position: -16px -80px; }
+.ui-icon-extlink { background-position: -32px -80px; }
+.ui-icon-newwin { background-position: -48px -80px; }
+.ui-icon-refresh { background-position: -64px -80px; }
+.ui-icon-shuffle { background-position: -80px -80px; }
+.ui-icon-transfer-e-w { background-position: -96px -80px; }
+.ui-icon-transferthick-e-w { background-position: -112px -80px; }
+.ui-icon-folder-collapsed { background-position: 0 -96px; }
+.ui-icon-folder-open { background-position: -16px -96px; }
+.ui-icon-document { background-position: -32px -96px; }
+.ui-icon-document-b { background-position: -48px -96px; }
+.ui-icon-note { background-position: -64px -96px; }
+.ui-icon-mail-closed { background-position: -80px -96px; }
+.ui-icon-mail-open { background-position: -96px -96px; }
+.ui-icon-suitcase { background-position: -112px -96px; }
+.ui-icon-comment { background-position: -128px -96px; }
+.ui-icon-person { background-position: -144px -96px; }
+.ui-icon-print { background-position: -160px -96px; }
+.ui-icon-trash { background-position: -176px -96px; }
+.ui-icon-locked { background-position: -192px -96px; }
+.ui-icon-unlocked { background-position: -208px -96px; }
+.ui-icon-bookmark { background-position: -224px -96px; }
+.ui-icon-tag { background-position: -240px -96px; }
+.ui-icon-home { background-position: 0 -112px; }
+.ui-icon-flag { background-position: -16px -112px; }
+.ui-icon-calendar { background-position: -32px -112px; }
+.ui-icon-cart { background-position: -48px -112px; }
+.ui-icon-pencil { background-position: -64px -112px; }
+.ui-icon-clock { background-position: -80px -112px; }
+.ui-icon-disk { background-position: -96px -112px; }
+.ui-icon-calculator { background-position: -112px -112px; }
+.ui-icon-zoomin { background-position: -128px -112px; }
+.ui-icon-zoomout { background-position: -144px -112px; }
+.ui-icon-search { background-position: -160px -112px; }
+.ui-icon-wrench { background-position: -176px -112px; }
+.ui-icon-gear { background-position: -192px -112px; }
+.ui-icon-heart { background-position: -208px -112px; }
+.ui-icon-star { background-position: -224px -112px; }
+.ui-icon-link { background-position: -240px -112px; }
+.ui-icon-cancel { background-position: 0 -128px; }
+.ui-icon-plus { background-position: -16px -128px; }
+.ui-icon-plusthick { background-position: -32px -128px; }
+.ui-icon-minus { background-position: -48px -128px; }
+.ui-icon-minusthick { background-position: -64px -128px; }
+.ui-icon-close { background-position: -80px -128px; }
+.ui-icon-closethick { background-position: -96px -128px; }
+.ui-icon-key { background-position: -112px -128px; }
+.ui-icon-lightbulb { background-position: -128px -128px; }
+.ui-icon-scissors { background-position: -144px -128px; }
+.ui-icon-clipboard { background-position: -160px -128px; }
+.ui-icon-copy { background-position: -176px -128px; }
+.ui-icon-contact { background-position: -192px -128px; }
+.ui-icon-image { background-position: -208px -128px; }
+.ui-icon-video { background-position: -224px -128px; }
+.ui-icon-script { background-position: -240px -128px; }
+.ui-icon-alert { background-position: 0 -144px; }
+.ui-icon-info { background-position: -16px -144px; }
+.ui-icon-notice { background-position: -32px -144px; }
+.ui-icon-help { background-position: -48px -144px; }
+.ui-icon-check { background-position: -64px -144px; }
+.ui-icon-bullet { background-position: -80px -144px; }
+.ui-icon-radio-on { background-position: -96px -144px; }
+.ui-icon-radio-off { background-position: -112px -144px; }
+.ui-icon-pin-w { background-position: -128px -144px; }
+.ui-icon-pin-s { background-position: -144px -144px; }
+.ui-icon-play { background-position: 0 -160px; }
+.ui-icon-pause { background-position: -16px -160px; }
+.ui-icon-seek-next { background-position: -32px -160px; }
+.ui-icon-seek-prev { background-position: -48px -160px; }
+.ui-icon-seek-end { background-position: -64px -160px; }
+.ui-icon-seek-start { background-position: -80px -160px; }
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+.ui-icon-seek-first { background-position: -80px -160px; }
+.ui-icon-stop { background-position: -96px -160px; }
+.ui-icon-eject { background-position: -112px -160px; }
+.ui-icon-volume-off { background-position: -128px -160px; }
+.ui-icon-volume-on { background-position: -144px -160px; }
+.ui-icon-power { background-position: 0 -176px; }
+.ui-icon-signal-diag { background-position: -16px -176px; }
+.ui-icon-signal { background-position: -32px -176px; }
+.ui-icon-battery-0 { background-position: -48px -176px; }
+.ui-icon-battery-1 { background-position: -64px -176px; }
+.ui-icon-battery-2 { background-position: -80px -176px; }
+.ui-icon-battery-3 { background-position: -96px -176px; }
+.ui-icon-circle-plus { background-position: 0 -192px; }
+.ui-icon-circle-minus { background-position: -16px -192px; }
+.ui-icon-circle-close { background-position: -32px -192px; }
+.ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.ui-icon-circle-triangle-s { background-position: -64px -192px; }
+.ui-icon-circle-triangle-w { background-position: -80px -192px; }
+.ui-icon-circle-triangle-n { background-position: -96px -192px; }
+.ui-icon-circle-arrow-e { background-position: -112px -192px; }
+.ui-icon-circle-arrow-s { background-position: -128px -192px; }
+.ui-icon-circle-arrow-w { background-position: -144px -192px; }
+.ui-icon-circle-arrow-n { background-position: -160px -192px; }
+.ui-icon-circle-zoomin { background-position: -176px -192px; }
+.ui-icon-circle-zoomout { background-position: -192px -192px; }
+.ui-icon-circle-check { background-position: -208px -192px; }
+.ui-icon-circlesmall-plus { background-position: 0 -208px; }
+.ui-icon-circlesmall-minus { background-position: -16px -208px; }
+.ui-icon-circlesmall-close { background-position: -32px -208px; }
+.ui-icon-squaresmall-plus { background-position: -48px -208px; }
+.ui-icon-squaresmall-minus { background-position: -64px -208px; }
+.ui-icon-squaresmall-close { background-position: -80px -208px; }
+.ui-icon-grip-dotted-vertical { background-position: 0 -224px; }
+.ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+.ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+.ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+.ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+.ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+	border-top-left-radius: 4px;
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+	border-top-right-radius: 4px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+	border-bottom-left-radius: 4px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+	border-bottom-right-radius: 4px;
+}
+
+/* Overlays */
+.ui-widget-overlay {
+	background: #aaaaaa url("images/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;
+	opacity: .3;
+	filter: Alpha(Opacity=30); /* support: IE8 */
+}
+.ui-widget-shadow {
+	margin: -8px 0 0 -8px;
+	padding: 8px;
+	background: #aaaaaa url("images/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;
+	opacity: .3;
+	filter: Alpha(Opacity=30); /* support: IE8 */
+	border-radius: 8px;
+}
+
+
+</style>
+<link rel="stylesheet" id="pnext.utils-css" href="resequence_files/pnext.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack-subscriptions-css" href="resequence_files/subscriptions.css" type="text/css" media="all">
+<link rel="stylesheet" id="uploaded_css-css" href="resequence_files/style_003.css" type="text/css" media="screen">
+<link rel="stylesheet" id="social-logos-css" href="resequence_files/social-logos.css" type="text/css" media="all">
+<script type="text/javascript" src="resequence_files/www.js"></script><style></style>
+<script type="text/javascript" src="resequence_files/jquery.js"></script>
+<script type="text/javascript" src="resequence_files/rotating_tweet.js"></script>
+<script type="text/javascript" src="resequence_files/dyntabs.js"></script>
+<script type="text/javascript" src="resequence_files/masonry.js"></script>
+<script type="text/javascript" src="resequence_files/core.js"></script>
+<script type="text/javascript" src="resequence_files/widget.js"></script>
+<script type="text/javascript" src="resequence_files/position.js"></script>
+<script type="text/javascript" src="resequence_files/mouse.js"></script>
+<script type="text/javascript" src="resequence_files/sortable.js"></script>
+<script type="text/javascript" src="resequence_files/datepicker.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type="text/javascript" src="resequence_files/menu.js"></script>
+<script type="text/javascript" src="resequence_files/wp-a11y.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="resequence_files/autocomplete.js"></script>
+<script type="text/javascript" src="resequence_files/resizable.js"></script>
+<script type="text/javascript" src="resequence_files/draggable.js"></script>
+<script type="text/javascript" src="resequence_files/button.js"></script>
+<script type="text/javascript" src="resequence_files/dialog.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var EM = {"ajaxurl":"https:\/\/developer.ibm.com\/integration\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/developer.ibm.com\/integration\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"https:\/\/developer.ibm.com\/integration\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"","is_ssl":"1","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"https:\/\/developer.ibm.com\/integration\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","booking_offset":"30","bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash.","disable_bookings_warning":"Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have","booking_warning_cancel":"Are you sure you want to cancel your booking?"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="resequence_files/events-manager.js"></script>
+<script type="text/javascript" src="resequence_files/tab-dropdown.js"></script>
+<script type="text/javascript" src="resequence_files/pnext.js"></script>
+<script type="text/javascript" src="resequence_files/ida_stats.js"></script>
+<link rel="https://api.w.org/" href="https://developer.ibm.com/integration/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://developer.ibm.com/integration/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://developer.ibm.com/integration/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.9.4">
+<link rel="shortlink" href="https://wp.me/P4IIDD-2E2">
+<link rel="alternate" type="application/json+oembed" href="https://developer.ibm.com/integration/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdeveloper.ibm.com%2Fintegration%2Fresources%2Fibm-integration-bus-v10-tutorials-on-github%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://developer.ibm.com/integration/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdeveloper.ibm.com%2Fintegration%2Fresources%2Fibm-integration-bus-v10-tutorials-on-github%2F&amp;format=xml">
+
+<link rel="dns-prefetch" href="https://v0.wordpress.com/">
+<link rel="dns-prefetch" href="https://i0.wp.com/">
+<link rel="dns-prefetch" href="https://i1.wp.com/">
+<link rel="dns-prefetch" href="https://i2.wp.com/">
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="IBM Integration Bus v10 tutorials on Github">
+<meta property="og:url" content="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/">
+<meta property="og:description" content="This page provides links to the IBM Integration Bus v10 tutorials that are available on Github. For each tutorial, the following links are provided: Details – An overview of the tutorial Down…">
+<meta property="article:published_time" content="2016-08-09T15:53:45+00:00">
+<meta property="article:modified_time" content="2017-07-26T16:34:00+00:00">
+<meta property="og:site_name" content="IBM Integration">
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:site" content="@IBMIntegration">
+<meta name="twitter:text:title" content="IBM Integration Bus v10 tutorials on Github">
+<meta name="twitter:card" content="summary">
+
+    <link href="resequence_files/www.css" rel="stylesheet">
+    <link href="resequence_files/grid-fluid.css" rel="stylesheet">
+    <link href="resequence_files/tables.css" rel="stylesheet">
+
+	<script type="text/javascript">
+		 IBMCore.common.util.config.set({
+		  "masthead":{
+		    "type":"alternate"
+		  },
+			greeting: { enabled: false },
+		  "footer":{
+		  	"type":"alternate",
+		    "socialLinks":{
+		      "enabled":false
+		    }
+		  },
+			survey: { global_percent: 0 }
+		});
+	 </script>
+	
+<link rel="stylesheet" type="text/css" id="gravatar-card-css" href="resequence_files/hovercard.css"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="resequence_files/services.css"><style id="ibm-masthead-hidelinks">@media screen and (max-width: 564px) { .ibm-masthead-categories,#ibm-megamenu-sections{display:none} }@media screen and (max-width: 564px) { .ibm-mh-marketplace-link{display:none} }</style><script type="text/javascript" async="" charset="utf-8" id="utag_ibm.web_53" src="resequence_files/utag_003.js"></script><script type="text/javascript" async="" charset="utf-8" id="utag_ibm.web_98" src="resequence_files/utag_002.js"></script><style id="ibm-sitenav-menu-hidelinks">@media screen and (max-width: 865px) { .ibm-sitenav-menu-list{display:none} } @media screen and (min-width: 866px) { .ibm-mobilemenu-sitenavmenu {display:none} }</style><script type="text/javascript" async="" charset="utf-8" id="utag_ibm.web_19" src="resequence_files/utag_005.js"></script><script type="text/javascript" async="" charset="utf-8" id="LOTCC_10026" src="resequence_files/cc.js"></script><script type="text/javascript" async="" charset="utf-8" id="utag_ibm.web_45" src="resequence_files/utag_004.js"></script><script type="text/javascript" async="" charset="utf-8" id="tealium_visitor_service_45main" src="resequence_files/016302b3bbb2001e47bbe0b3869a0104c005c009009dc.js"></script><script language="javascript" type="text/javascript" src="resequence_files/50200000.js"></script><script language="javascript" type="text/javascript" src="resequence_files/rules_50200000.js"></script><script language="javascript" type="text/javascript" src="resequence_files/dispatcher-v3.js"></script><script async="" src="resequence_files/modules-b9d413cfd2f87f7f76ffb080ac50a079.js"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style><script src="resequence_files/yahoo-min.js" type="text/javascript"></script><script src="resequence_files/cp-v3.js" type="text/javascript"></script><script src="resequence_files/json-min.js" type="text/javascript"></script></head>
+
+<body id="ibm-com" class="page-template-default page page-id-10170 page-child parent-pageid-4965 ibm-com ibm-type group-blog jp-sharing-input-touch ibm-sitenav-menu ibm-sitenav-menu-sticky ibm-masthead-sticky">
+	<div style="display:none"></div>
+<!--div id="page" class="site"-->
+<div id="ibm-top" class="ibm-landing-page">
+	<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+	<!-- MASTHEAD_BEGIN -->
+	<div id="ibm-masthead" role="banner" aria-label="IBM" class="ibm-mhtype-minimal hastransition">
+		<div id="ibm-mast-options">
+			<ul role="toolbar" aria-labelledby="ibm-masthead">
+				<li id="ibm-geo" role="presentation">
+					<a href="http://www.ibm.com/planetwide/select/selector.html">United States</a>
+				</li>
+			</ul>
+		</div>
+		<div id="ibm-universal-nav" class="">
+			<div id="ibm-home">
+				<a href="http://www.ibm.com/us-en/?lnk=m">IBM®</a>
+			</div>
+			<div class="dw-nav-left">
+				<a href="http://www.ibm.com/developerworks/" class="dw-logo"><span>developerWorks</span></a>
+							</div>
+			<ul id="ibm-menu-links" role="toolbar" aria-label="Site map" class="ibm-hide">
+				<li><a href="http://www.ibm.com/sitemap/us/en/">Site map</a></li>
+			</ul><div class="ibm-masthead-rightside" style=""><p class="ibm-mh-marketplace-link ibm-button-link ibm-fleft ibm-padding-bottom-0" style=""><a class="ibm-btn-small ibm-btn-sec ibm-btn-blue-50" href="https://www.ibm.com/marketplace/?lnk=mp">Marketplace</a></p><div id="ibm-search-module" role="search" aria-labelledby="ibm-masthead" class="ibm-has-scope">
+				<!-- form id="ibm-search-form" action="http://www.ibm.com/Search/" method="get" -->
+				<div class="ibm-masthead-search-close"><p class="ibm-ind-link ibm-icononly ibm-padding-bottom-0"><a href="#" class="ibm-close-link ibm-nospacing">Close</a></p></div><form id="ibm-search-form" action="//www.ibm.com/Search/" method="get" aria-labelledby="ibm-masthead">
+					<p>
+						<label for="q"><span class="ibm-access">Search</span></label>
+						<input maxlength="100" name="q" id="q" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="ibm-search-typeahead-container" type="text"><input name="lnk" value="mhsrch" type="hidden">
+						<input name="v" value="18" type="hidden">
+						<input name="en" value="utf" type="hidden">
+						<input name="lang" value="en" type="hidden">
+						<input name="cc" value="us" type="hidden">
+						<input name="sn" value="dw" type="hidden">
+						<input name="dw" value="dws" type="hidden">
+												<span class="ibm-search-scope ibm-fadeout" aria-expanded="true">
+							<input class="ibm-styled-checkbox" name="sn" value="Search standards" checked="checked" id="scopeoption" type="checkbox">
+							<label for="scopeoption">Search IBM Integration</label>
+						</span>
+											<button role="button" id="ibm-search" class="ibm-search-link" value="Submit" type="submit"><span class="ibm-access">Submit</span></button>
+					</p>
+				</form>
+									<form class="ibm-hide" id="devcenter-search-form" action="https://developer.ibm.com/integration/search/" method="get">
+						<p>
+							<label for="pnext-search-input" class="screen-reader-text">Search</label>
+							<input placeholder="Search" value="more:nextiib" name="hq" type="hidden">
+							<input maxlength="100" required="" aria-required="true" id="q" class="pn-search-input pn-nav-search-input fl" name="visual_q" type="text">
+							<input id="pnext-search-input-hidden" name="q" type="hidden">
+							<input id="ibm-search" class="ibm-btn-search" value="Seach" type="submit">
+						</p>
+					</form>
+					<script>
+						var $cse = '006696266273115712924:ft7vdfhvshq',
+							$csefilter = 'more:nextiib';
+						jQuery(document).ready(function(){
+							var $form = jQuery('#devcenter-search-form');
+								$form.on('submit.googlecse',function(e){
+									jQuery('#pnext-search-input-hidden').val(jQuery('#q').val() + ' ' + $csefilter);
+								})
+						});
+					</script>
+									
+			</div><div id="ibm-search-typeahead-container" aria-expanded="true" class="ibm-search-typeahead-container ibm-fadeout"></div><ul aria-label="Tools" role="menubar" class="ibm-masthead-iconsonly"><li role="presentation" class="ibm-masthead-item-signin"><button role="button" aria-haspopup="true" aria-owns="ibm-signin-minimenu-container" class="ibm-profile-link">My IBM dashboard</button><ul id="ibm-signin-minimenu-container" role="menu" aria-label="Profile" class="ibm-dropdown-menu"><li role="presentation"><a role="menuitem" href="https://developer.ibm.com/sso/login?d=https%3A%2F%2Fdeveloper.ibm.com%2Fintegration%2Fresources%2Fibm-integration-bus-v10-tutorials-on-github&amp;lang=en_US">Sign In</a></li><li role="presentation"><a role="menuitem" href="https://developer.ibm.com/sso/register?lang=en_US&amp;d=https%3A%2F%2Fdeveloper.ibm.com%2Fintegration%2Fresources%2Fibm-integration-bus-v10-tutorials-on-github">Register</a></li></ul></li><li role="presentation" class="ibm-masthead-item-menu"><button role="button" aria-haspopup="true" aria-owns="ibm-burger-menu-container" class="ibm-menu-link">Site navigation</button></li></ul></div>
+			
+		</div>
+	</div><div class="ibm-mobilemenu ibm-hide" id="ibm-burger-menu-container" aria-labelledby="ibm-burgermenu-a11y" role="dialog" tabindex="0"><p class="ibm-hide" id="ibm-burgermenu-a11y">Site navigation</p><div class="ibm-mobilemenu-close"><p class="ibm-icononly ibm-fright ibm-ind-link ibm-nospacing"><a class="ibm-close-link" href="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/?lnk=hm#">Close</a></p></div><div class="ibm-mobilemenu-section ibm-mobilemenu-sitenavmenu"><ul id="primary-menu" class="menu"><li class="ibm-mobile-section-heading ibm-mobile-sitename">
+    <a href="https://developer.ibm.com/integration/?lnk=hm" rel="home">IBM Integration</a>
+  </li><li id="menu-item-1892" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1892"><a href="https://developer.ibm.com/integration/resources/?lnk=hm" tabindex="0">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-15045" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15045"><a href="https://developer.ibm.com/integration/docs/app-connect/?lnk=hm"><span>IBM App Connect (IBM Cloud)</span></a></li>
+	<li id="menu-item-23366" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-23366"><a href="https://developer.ibm.com/integration/docs/app-connect-enterprise/?lnk=hm"><span>IBM App Connect Enterprise (software)</span></a></li>
+	<li id="menu-item-15049" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-has-children menu-item-15049"><a href="https://developer.ibm.com/integration/docs/ibm-integration-bus/?lnk=hm"><span>IBM Integration Bus (software)</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-15051" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15051"><a href="https://developer.ibm.com/integration/docs/integration-bus-on-cloud/?lnk=hm"><span>Integration Bus on Cloud</span></a></li>
+		<li id="menu-item-15046" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15046"><a href="https://developer.ibm.com/integration/docs/ibm-integration-bus/healthcare-integration/?lnk=hm"><span>Healthcare integration</span></a></li>
+		<li id="menu-item-15052" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15052"><a href="https://developer.ibm.com/integration/docs/ibm-integration-bus/manufacturing-integration/?lnk=hm"><span>Manufacturing Integration</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-15047" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15047"><a href="https://developer.ibm.com/integration/docs/ibm-application-integration-suite/?lnk=hm"><span>IBM Application Integration Suite</span></a></li>
+	<li id="menu-item-15048" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15048"><a href="https://developer.ibm.com/integration/docs/ibm-application-integration-suite-on-cloud/?lnk=hm"><span>IBM Application Integration Suite on Cloud</span></a></li>
+	<li id="menu-item-15050" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15050"><a href="https://developer.ibm.com/integration/docs/wsrr/?lnk=hm"><span>IBM WebSphere Service Registry and Repository (WSRR)</span></a></li>
+</ul>
+</li>
+<li id="menu-item-14649" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14649"><a href="https://developer.ibm.com/integration/home-integration/videos/?lnk=hm" tabindex="-1">Videos</a>
+<ul class="sub-menu">
+	<li id="menu-item-15066" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15066"><a title="Watch videos to learn about App Connect and how to use it" href="https://developer.ibm.com/integration/docs/app-connect/videos-for-ibm-app-connect/?lnk=hm"><span>IBM App Connect</span></a></li>
+	<li id="menu-item-15067" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15067"><a title="Watch videos to learn about Integration Bus and how to use it" href="https://developer.ibm.com/integration/docs/ibm-integration-bus/videos-ibm-integration-bus-v10/?lnk=hm"><span>IBM Integration Bus</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1832" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1832"><a title="IBM Integration Community blog" href="https://developer.ibm.com/integration/blog?lnk=hm" tabindex="-1">Blog</a></li>
+<li id="menu-item-1894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1894"><a href="https://developer.ibm.com/integration/support-ibm-integration/?lnk=hm" tabindex="-1">Support</a></li>
+<li id="menu-item-2960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2960"><a href="https://developer.ibm.com/integration/events/?lnk=hm" tabindex="-1">Events</a></li>
+<li id="menu-item-1510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1510"><a href="https://developer.ibm.com/integration/ibm-integration-community/?lnk=hm" tabindex="-1">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-15044" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15044"><a title="If interested in contributing more to the site (writing or publishing your own blog or doc posts), you can request a more active role" href="https://developer.ibm.com/integration/request-role-site-2/?lnk=hm"><span>Contribute to this site</span></a></li>
+</ul>
+</li>
+<li id="menu-item-15058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-15058"><a title="Log in to online user interfaces for IBM Integration" href="https://developer.ibm.com/integration/log-in/?lnk=hm" tabindex="-1">Product links</a>
+<ul class="sub-menu">
+	<li id="menu-item-15059" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15059"><a href="https://designer.appconnect.ibmcloud.com/auth/sso?lnk=hm"><span>App Connect Designer</span></a></li>
+	<li id="menu-item-15060" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15060"><a href="https://castiron.ibmcloud.com/?lnk=hm"><span>App Connect Studio</span></a></li>
+	<li id="menu-item-15061" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15061"><a href="https://ibm-cloud-ui.ibmintegrationbus.ibmcloud.com/?lnk=hm"><span>IIB on Cloud</span></a></li>
+	<li id="menu-item-15062" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15062"><a href="https://console.bluemix.net/dashboard/?cm_sp=dw-bluemix-_-integration-_-devcenter&amp;lnk=hm"><span>IBM Bluemix</span></a></li>
+	<li id="menu-item-15063" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15063"><a href="https://myibm.ibm.com/products-services/?lnk=hm"><span>My IBM – products &amp; services</span></a></li>
+</ul>
+</li>
+</ul></div><div class="ibm-mobilemenu-section"><ul class="ibm-mobilemenu-mhlinks" aria-label="Discover IBM"><li><a href="https://www.ibm.com/marketplace/?lnk=hmmp">Marketplace</a></li><li><div data-widget="showhide" data-type="panel" class="ibm-show-hide ibm-widget-processed"><h2><a href="javascript:void();">Products</a></h2><div class="ibm-container-body" style="display: none;"><ul><li><a href="http://www.ibm.com/products/?lnk=hmmpr"><span>Products</span></a></li><li><a href="http://www.ibm.com/analytics/us/en/?lnk=hmmpr_bua&amp;lnk2=learn"><span>Analytics</span></a></li><li><a href="https://www.ibm.com/blockchain/?lnk=hmmpr_bubk&amp;lnk2=learn"><span>Blockchain</span></a></li><li><a href="http://www.ibm.com/cloud-computing/?lnk=hmmpr_bucl"><span>Cloud</span></a></li><li><a href="https://www.ibm.com/collaboration?lnk=hmmpr_buso"><span>Collaboration Solutions</span></a></li><li><a href="https://www.ibm.com/industries?lnk=hmmpr_ind&amp;lnk2=learn"><span>Industry solutions</span></a></li><li><a href="http://www.ibm.com/internet-of-things/?lnk=hmmpr_iot&amp;lnk2=learn"><span>Internet of Things</span></a></li><li><a href="http://www.ibm.com/it-infrastructure/us-en/?lnk=hmmpr_buit&amp;lnk2=learn"><span>IT infrastructure</span></a></li><li><a href="http://www.ibm.com/mobile/?lnk=hmmpr_bumf&amp;lnk2=learn"><span>Mobile</span></a></li><li><a href="http://www.ibm.com/security/?lnk=hmmpr_buse&amp;lnk2=learn"><span>Security</span></a></li><li><a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/?lnk=hmmpr_buwa&amp;lnk2=learn"><span>Watson</span></a></li><li><a href="http://www.ibm.com/commerce/us-en/?lnk=hmmpr_bucom&amp;lnk2=learn"><span>Watson Customer Engagement</span></a></li><li><a href="http://www.ibm.com/watson/health/?lnk=hmmpr_buwh"><span>Watson Health</span></a></li></ul></div></div></li><li><div data-widget="showhide" data-type="panel" class="ibm-show-hide ibm-widget-processed"><h2><a href="javascript:void();">Services</a></h2><div class="ibm-container-body" style="display: none;"><ul><li><a href="https://www-935.ibm.com/services/index.html?lnk=hmmse_ts"><span>Services</span></a></li><li><a href="http://www.ibm.com/financing?lnk=hmmse_fin&amp;lnk2=learn"><span>Financing</span></a></li><li><a href="http://www.ibm.com/industries/?lnk=hmmse_ie&amp;lnk2=learn"><span>Industry expertise</span></a></li><li><a href="http://www.ibm.com/training/?lnk=hmmse_tr&amp;lnk2=learn"><span>Training and skills</span></a></li></ul></div></div></li><li><a href="http://www.ibm.com/industries?lnk=hmmin">Industries</a></li><li><div data-widget="showhide" data-type="panel" class="ibm-show-hide ibm-widget-processed"><h2><a href="javascript:void();">Developers</a></h2><div class="ibm-container-body" style="display: none;"><ul><li><a href="http://www.ibm.com/developerworks/?lnk=hmmdev_dw&amp;lnk2=learn"><span>developerWorks</span></a></li><li><a href="https://developer.ibm.com/api/?lnk=hmmdev_api&amp;lnk2=learn"><span>API</span></a></li><li><a href="https://www.ibm.com/cloud-computing/bluemix/?lnk=hmmdev_cl&amp;lnk2=learn"><span>Cloud</span></a></li><li><a href="https://www.ibm.com/cloud-computing/bluemix/?lnk=hmmdev_da&amp;lnk2=learn"><span>Data</span></a></li><li><a href="https://www.ibm.com/watson/?lnk=hmmpr_buwa&amp;lnk2=learn"><span>Watson</span></a></li><li><a href="https://developer.ibm.com/open/?lnk=hmmdev_os&amp;lnk2=learn"><span>Open source</span></a></li></ul></div></div></li><li><a href="http://support.ibm.com/?lnk=hmmsu">Support</a></li><li><a href="http://www.ibm.com/employment/?lnk=hmmca">Careers</a></li></ul></div></div><div class="ibm-mhplaceholder"></div>
+  <!-- MASTHEAD_END -->
+  <div id="ibm-content-wrapper">
+  	<header role="banner" aria-labelledby="ibm-pagetitle-h1">
+  		<!-- MASTHEAD_SITENAV_BEGIN -->
+<div class="ibm-sitenav-menu-container" data-widgetprocessed="true">
+  <div class="ibm-sitenav-menu-name">
+    <a href="https://developer.ibm.com/integration/" rel="home">IBM Integration</a>
+  </div>
+    <div class="ibm-sitenav-menu-list"><ul id="primary-menu" class="menu"><li id="menu-item-1892" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1892"><a href="https://developer.ibm.com/integration/resources/" tabindex="0">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-15045" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15045"><a href="https://developer.ibm.com/integration/docs/app-connect/">IBM App Connect (IBM Cloud)</a></li>
+	<li id="menu-item-23366" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-23366"><a href="https://developer.ibm.com/integration/docs/app-connect-enterprise/">IBM App Connect Enterprise (software)</a></li>
+	<li id="menu-item-15049" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-has-children menu-item-15049"><a href="https://developer.ibm.com/integration/docs/ibm-integration-bus/">IBM Integration Bus (software)</a>
+	<ul class="sub-menu">
+		<li id="menu-item-15051" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15051"><a href="https://developer.ibm.com/integration/docs/integration-bus-on-cloud/">Integration Bus on Cloud</a></li>
+		<li id="menu-item-15046" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15046"><a href="https://developer.ibm.com/integration/docs/ibm-integration-bus/healthcare-integration/">Healthcare integration</a></li>
+		<li id="menu-item-15052" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15052"><a href="https://developer.ibm.com/integration/docs/ibm-integration-bus/manufacturing-integration/">Manufacturing Integration</a></li>
+	</ul>
+</li>
+	<li id="menu-item-15047" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15047"><a href="https://developer.ibm.com/integration/docs/ibm-application-integration-suite/">IBM Application Integration Suite</a></li>
+	<li id="menu-item-15048" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15048"><a href="https://developer.ibm.com/integration/docs/ibm-application-integration-suite-on-cloud/">IBM Application Integration Suite on Cloud</a></li>
+	<li id="menu-item-15050" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15050"><a href="https://developer.ibm.com/integration/docs/wsrr/">IBM WebSphere Service Registry and Repository (WSRR)</a></li>
+</ul>
+</li>
+<li id="menu-item-14649" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14649"><a href="https://developer.ibm.com/integration/home-integration/videos/" tabindex="-1">Videos</a>
+<ul class="sub-menu">
+	<li id="menu-item-15066" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15066"><a title="Watch videos to learn about App Connect and how to use it" href="https://developer.ibm.com/integration/docs/app-connect/videos-for-ibm-app-connect/">IBM App Connect</a></li>
+	<li id="menu-item-15067" class="menu-item menu-item-type-post_type menu-item-object-doc_page menu-item-15067"><a title="Watch videos to learn about Integration Bus and how to use it" href="https://developer.ibm.com/integration/docs/ibm-integration-bus/videos-ibm-integration-bus-v10/">IBM Integration Bus</a></li>
+</ul>
+</li>
+<li id="menu-item-1832" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1832"><a title="IBM Integration Community blog" href="https://developer.ibm.com/integration/blog" tabindex="-1">Blog</a></li>
+<li id="menu-item-1894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1894"><a href="https://developer.ibm.com/integration/support-ibm-integration/" tabindex="-1">Support</a></li>
+<li id="menu-item-2960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2960"><a href="https://developer.ibm.com/integration/events/" tabindex="-1">Events</a></li>
+<li id="menu-item-1510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1510"><a href="https://developer.ibm.com/integration/ibm-integration-community/" tabindex="-1">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-15044" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15044"><a title="If interested in contributing more to the site (writing or publishing your own blog or doc posts), you can request a more active role" href="https://developer.ibm.com/integration/request-role-site-2/">Contribute to this site</a></li>
+</ul>
+</li>
+<li id="menu-item-15058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-15058"><a title="Log in to online user interfaces for IBM Integration" href="https://developer.ibm.com/integration/log-in/" tabindex="-1">Product links</a>
+<ul class="sub-menu">
+	<li id="menu-item-15059" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15059"><a href="https://designer.appconnect.ibmcloud.com/auth/sso">App Connect Designer</a></li>
+	<li id="menu-item-15060" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15060"><a href="https://castiron.ibmcloud.com/">App Connect Studio</a></li>
+	<li id="menu-item-15061" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15061"><a href="https://ibm-cloud-ui.ibmintegrationbus.ibmcloud.com/">IIB on Cloud</a></li>
+	<li id="menu-item-15062" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15062"><a href="https://console.bluemix.net/dashboard/?cm_sp=dw-bluemix-_-integration-_-devcenter">IBM Bluemix</a></li>
+	<li id="menu-item-15063" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15063"><a href="https://myibm.ibm.com/products-services/">My IBM – products &amp; services</a></li>
+</ul>
+</li>
+</ul></div></div>
+<!-- MASTHEAD_SITENAV_END -->
+  	</header>
+<style>#ibm-com .gsc-adBlock{display:none !important;}</style>
+<div id="content" class="site-content">
+	<div class="ibm-fluid content-area-restricted pnpagepost">
+				<header class="pagepost-entry-header">
+				<h1 class="entry-title">IBM Integration Bus v10 tutorials on Github</h1>		</header><!-- .entry-header -->
+		    	<div id="primary" class="content-area ">
+    		<main id="main" class="site-main" role="main" aria-label="">
+    			    				<article id="post-10170" class="post-10170 page type-page status-publish hentry">
+	
+	<div class="entry-content">
+		<div id="intro">
+This page provides links to the IBM Integration Bus v10 tutorials that 
+are available on Github.  For each tutorial, the following links are 
+provided:
+<ul>
+	<li>Details – An overview of the tutorial</li>
+	<li>Download archive (ZIP) – The project interchange archive file for the tutorial</li>
+	<li>Steps – The steps to complete for the tutorial</li>
+</ul>
+
+Normally, you can use the IBM Integration Toolkit to explore and run the
+ tutorials within the toolkit.
+
+If you want to explore the tutorials without using the toolkit, you can 
+use these links to read the details and steps.
+
+Some users of the Tutorials Gallery in the IBM Integration Toolkit have 
+reported Java connection errors that prevent them from viewing and 
+importing tutorials in the Toolkit.  If you continue to have connection 
+problems from within the Integration Toolkit, but do have a web browser 
+connection to GitHub, you can use these links to download the project 
+interchange archive files for tutorials and import them into the 
+Integration Toolkit.  (In your Integration Toolkit, use <strong>File &gt; Import… &gt; Project Interchange</strong> to import the tutorial archive file into the Application Development view in your Integration Toolkit.)  See also, <a href="https://nextstage.rtp.raleigh.ibm.com/integration/docs/ibm-integration-bus/tutorials/#gettutmanually">Downloading tutorials manually</a>.
+</div>
+
+<div id="placeholder"><!-- Placeholder div to attch generated content (from Github) to. --><div class="tutorial"><h3>Using a LoopBack Request node to insert data into a Cloudant database</h3><p>Learn
+ how to use the LoopBackRequest node to create a JSON document in a 
+Cloudant database (requires IBM Integration Bus v10 fixpack 6 or later).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/loopback-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/loopback-tutorial/releases/download/v2.0/PI_LoopbackTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/loopback-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Using a WorkLoad Management Policy to restrict the maximum throughput of a flow</h3><p>Learn how to use a Workload Management Policy to restrict the maximum rate at which a message flow can run.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/wlm-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/wlm-tutorial/releases/download/v1.0/PI_WLMTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/wlm-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Using a Sequence node to inject a sequence number into a message</h3><p>Learn how to use the Sequence node to inject sequence numbers into message data as it goes through a message flow.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/sequence-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/sequence-tutorial/releases/download/v1.0/PI_SequenceTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/sequence-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Using a Resequence node to reorder messages going through a flow</h3><p>Learn
+ how to use the Resequence node to control the sequence in which a group
+ of incoming messages are propagated through the message flow.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/resequence-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/resequence-tutorial/releases/download/v1.0/PI_ResequenceTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/resequence-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Producing and consuming Kafka messages</h3><p>Learn
+ how to use the KafkaProducer and KafkaConsumer nodes in a message flow 
+(requires IBM Integration Bus v10 fixpack 7 or later).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/kafka-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/kafka-tutorial/releases/download/V1.11/KafkaTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/kafka-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Call a REST API using the RESTRequest node</h3><p>Learn how to use a RESTRequest node to call a REST API (requires IBM Integration Bus v10 fixpack 6 or later).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/restrequest-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/restrequest-tutorial/releases/download/v1.0/RESTRequestTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/restrequest-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Call a REST API using the RESTAsyncRequest node</h3><p>Learn
+ how to use a RESTAsyncRequest node to call a REST API and a 
+RESTAsyncResponse node to receive the response (requires IBM Integration
+ Bus v10 fixpack 6 or later).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/restrequest-async-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/restrequest-async-tutorial/releases/download/v1.0/RESTAsyncRequestTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/restrequest-async-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Using Bluemix Product Insights to view IBM Integration Bus Startup and Usage</h3><p>Learn
+ how to use the Product Insights service on Bluemix to get a centralized
+ view of IBM Integration Bus Startup and Usage (requires IBM Integration
+ Bus v10 fixpack 8 or later).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/productinsights-service-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/productinsights-service-tutorial/releases/download/v2.0/ProductInsightsTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/productinsights-service-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Using Bluemix Kibana Dashboards to view IIB Logs</h3><p>Learn
+ how to use a Kibana Dashboard on Bluemix to get a centralised view of 
+IIB Logs (requires IBM Integration Bus v10 fixpack 8 or later).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/productinsights-logging-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/productinsights-logging-tutorial/releases/download/v3.0/ProductInsightsKibanaTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/productinsights-logging-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Aggregation nodes using MQ nodes with back-end services</h3><p>Learn how to use the Aggregation nodes to fan-out and fan-in messages using MQ nodes.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/aggregation-mq-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/aggregation-mq-tutorial/releases/download/v1.0/AggregationMQTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/aggregation-mq-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Aggregation nodes using HTTPAsyncRequest nodes with back-end services</h3><p>Learn how to use the Aggregation nodes to fan-out and fan-in messages using asynchronous HTTP nodes.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/aggregation-httpasync-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/aggregation-httpasync-tutorial/releases/download/v1.0/AggregationHTTPAsyncTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/aggregation-httpasync-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Aggregation nodes using RESTAsyncRequest nodes with back-end services</h3><p>Learn
+ how to use the Aggregation nodes to fan-out and fan-in messages using 
+asynchronous REST nodes (requires IBM Integration Bus v10 fixpack 6 or 
+later).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/aggregation-restasync-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/aggregation-restasync-tutorial/releases/download/v1.0/AggregationRestAsyncTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/aggregation-restasync-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Aggregation nodes using SOAPAsyncRequest nodes with back-end services</h3><p>Learn how to use the Aggregation nodes to fan-out and fan-in messages using asynchronous SOAP nodes.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/aggregation-soapasync-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/aggregation-soapasync-tutorial/releases/download/v1.0/AggregationSOAPAsyncTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/aggregation-soapasync-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Aggregation nodes using CallableFlowAsyncInvoke nodes with back-end services</h3><p>Learn
+ how to use the Aggregation nodes to fan-out and fan-in messages using 
+asynchronous Callable Flow nodes (requires IBM Integration Bus v10 
+fixpack 8 or later).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/aggregation-callableasync-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/aggregation-callableasync-tutorial/releases/download/v1.0/AggregationCallableAsyncTutorial.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/aggregation-callableasync-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Integration services (SOAP/HTTP inputs)</h3><p>Learn about integration services that use SOAP/HTTP inputs in IBM Integration Bus by exploring this simple example.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/integration-services-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/integration-services-tutorial/releases/download/V1/TemperatureConverter.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/integration-services-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Manage a set of records with IBM Integration Bus REST API services</h3><p>Learn how to use an IBM Integration Bus REST API service to manage a set of records.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/rest-api-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/rest-api-tutorial/releases/download/V1/CustomerDatabasePI_V1.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/rest-api-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Transformation using a Map in a message flow</h3><p>Learn
+ how to use a Mapping node to transform data using a Map in an IBM 
+Integration Bus message flow by exploring this simple example.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/transformation-map-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/transformation-map-tutorial/releases/download/v1.0/TransformMAPPI.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/transformation-map-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Transformation using ESQL in a message flow</h3><p>Learn
+ how to use a Compute node to transform data using ESQL in an IBM 
+Integration Bus message flow by exploring this simple example.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/transformation-esql-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/transformation-esql-tutorial/releases/download/v1.0/TransformESQLPI.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/transformation-esql-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Transformation using Java in a message flow</h3><p>Learn
+ how to use a JavaCompute node to transform data using Java in an IBM 
+Integration Bus message flow by exploring this simple example.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/transformation-java-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/transformation-java-tutorial/releases/download/v1.0/TransformJavaPI.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/transformation-java-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Transformation using Java (JAXB) in a message flow</h3><p>Learn
+ how to use a JavaCompute node to transform data using Java (JAXB) in an
+ IBM Integration Bus message flow by exploring this simple example.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/transformation-javaJAXB-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/transformation-javaJAXB-tutorial/releases/download/v1.0/TransformJAXBPI.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/transformation-javaJAXB-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Transformation using XSL in a message flow</h3><p>Learn
+ how to use an XSL Transform node to transform data using XSL in an IBM 
+Integration Bus message flow by exploring this simple example.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/transformation-XSL-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/transformation-XSL-tutorial/releases/download/v1.0/TransformXSLPI.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/transformation-XSL-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Transformation using .NET in a message flow</h3><p>Learn
+ how to use a .NETCompute node to transform data using C# in an IBM 
+Integration Bus message flow by exploring this simple example.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/transformation-dotnet-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/transformation-dotnet-tutorial/releases/download/v1.0/TransformDOTNETPI.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/transformation-dotnet-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Retrieving records from a Salesforce system</h3><p>Learn
+ how to use the SalesforceRequest node to retrieve records from 
+Salesforce.com (requires IBM Integration Bus v10 fixpack 4 or later).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/salesforce-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/salesforce-tutorial/releases/download/v100/iibsalesforce_PI_v1.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/salesforce-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Callable Flows</h3><p>Learn how to split flow processing using CallableFlow nodes (requires IBM Integration Bus v10 fixpack 4 or later).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/callable-flows-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/callable-flows-tutorial/releases/download/v1.0/CallableFlowsPI.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/callable-flows-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Business transaction monitoring</h3><p>Learn how to monitor business transactions across flows (requires IBM Integration Bus v10 fixpack 3 or later).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/btm-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/btm-tutorial/releases/download/V1/BTM_RETAIL.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/btm-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Using a Mapping node to access a Lookup table that is stored in the Global Cache</h3><p>Learn
+ how to use a Mapping node to graphically access a Lookup table stored 
+in the Global Cache (requires IBM Integration Bus v10 fixpack 2 or 
+later).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/mapping-cache-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/mapping-cache-tutorial/releases/download/1.0/MappingCachePI.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/mapping-cache-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Receiving MQTT messages by subscribing to MQTT topics</h3><p>Learn how to use the MQTTSubscribe node to receive messages from an MQTT server.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/mqtt-subscribe-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/mqtt-subscribe-tutorial/releases/download/v1.0/MQTTSubscribe.v1.0.PI.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/mqtt-subscribe-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>HTTP Input to drive a message flow</h3><p>Learn how to use an HTTP Input node to parse JSON data in an IBM Integration Bus message flow by exploring this simple example.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/http-input-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/http-input-tutorial/releases/download/V1/PI_HTTPInputApplication.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/http-input-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Integration using TCPIP nodes</h3><p>Learn how to use TCP/IP nodes for integration with external applications using TCPIP sockets.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/tcpip-input-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/tcpip-input-tutorial/releases/download/2.0/TCPIP_Project_Interchange.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/tcpip-input-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Large message splitting</h3><p>Split a large input message into individual records, using Java transformation code, in a memory-efficient manner.</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/large-messaging-tutorial/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/large-messaging-tutorial/releases/download/V1.1/LargeMessagingPI.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/large-messaging-tutorial/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Modeling CSV data by using DFDL</h3><p>Learn how to model CSV data using Data Format Description Language (DFDL).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/dfdl-csv-tutorial/dfdlcsv/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/dfdl-csv-tutorial/releases/download/v1.0.0/dfdlcsv_PI_v1.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/dfdl-csv-tutorial/dfdlcsv/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Modeling COBOL data by using DFDL</h3><p>Learn how to model COBOL data by using Data Format Description Language (DFDL).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/dfdl-cobol-tutorial/dfdlcobol/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/dfdl-cobol-tutorial/releases/download/v1.0.0/dfdlcobol_PI_v1.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/dfdl-cobol-tutorial/dfdlcobol/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Modeling EDIFACT data by using DFDL</h3><p>Learn how to model EDIFACT data by using Data Format Description Language (DFDL).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/dfdl-edifact-tutorial/dfdledifact/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/dfdl-edifact-tutorial/releases/download/v1.0.0/dfdledifact_PI_v1.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/dfdl-edifact-tutorial/dfdledifact/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Modeling HL7 data by using DFDL</h3><p>Learn how to model HL7 healthcare data using Data Format Description Language (DFDL).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/dfdl-hl7-tutorial/dfdlhl7/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/dfdl-hl7-tutorial/releases/download/v1.0.0/dfdlhl7_PI_v1.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/dfdl-hl7-tutorial/dfdlhl7/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Modeling Toshiba 4690 TLog data by using DFDL</h3><p>Learn how to model Toshiba 4690 Point of Sale Transaction Log data by using Data Format Description Language (DFDL).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/dfdl-tlog-tutorial/dfdltlog/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/dfdl-tlog-tutorial/releases/download/v1.0.0/dfdltlog_PI_v1.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/dfdl-tlog-tutorial/dfdltlog/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div><div class="tutorial"><h3>Modeling ISO 8583 data by using DFDL</h3><p>Learn how to model ISO 8583 data by using Data Format Description Language (DFDL).</p><ul><li class="details"><span class="detailsURL pseudolink" data-detailurl="https://ot4i.github.io/dfdl-iso8583-tutorial/dfdliso8583/en/details.html" title="Read an overview of this tutorial">Details</span></li><li class="download"><a href="https://github.com/ot4i/dfdl-iso8583-tutorial/releases/download/v1.0.0/dfdliso8583_PI_v1.zip" title="Download the project interchange archive file for this tutorial">Download archive (ZIP)</a></li><li class="steps"><span class="stepsURL pseudolink" data-stepurl="https://ot4i.github.io/dfdl-iso8583-tutorial/dfdliso8583/en/steps.html" title="Steps to complete this tutorial (opens in a model dialog)">Steps</span></li></ul></div></div>
+	
+	  <div id="manualdownload" class="pn-notebox"><p>This page should 
+retrieve and display links for the IBM Integration Bus tutorials in 
+Github.  If a list of tutorials does not appear,
+	  you can manually download and import tutorials into the Integration 
+Toolkit, by using the manual procedure described in 
+	  <a href="https://developer.ibm.com/integration/docs/ibm-integration-bus/tutorials/#gettutmanually">Downloading tutorials manually</a>.</p>
+	  </div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-10170" class="share-twitter sd-button share-icon no-text" href="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/?share=twitter&amp;nb=1" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-10170" class="share-facebook sd-button share-icon no-text" href="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/?share=facebook&amp;nb=1" target="_blank" title="Click to share on Facebook"><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-10170" class="share-linkedin sd-button share-icon no-text" href="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/?share=linkedin&amp;nb=1" target="_blank" title="Click to share on LinkedIn"><span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-10170" class="share-google-plus-1 sd-button share-icon no-text" href="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/?share=google-plus-1&amp;nb=1" target="_blank" title="Click to share on Google+"><span></span><span class="sharing-screen-reader-text">Click to share on Google+ (Opens in new window)</span></a></li><li class="share-print"><a rel="nofollow" data-shared="" class="share-print sd-button share-icon no-text" href="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/#print" target="_blank" title="Click to print"><span></span><span class="sharing-screen-reader-text">Click to print (Opens in new window)</span></a></li><li><a href="#" class="sharing-anchor sd-button share-more"><span>More</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-10170" class="share-pinterest sd-button share-icon no-text" href="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/?share=pinterest&amp;nb=1" target="_blank" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest (Opens in new window)</span></a></li><li class="share-pocket"><a rel="nofollow" data-shared="" class="share-pocket sd-button share-icon no-text" href="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/?share=pocket&amp;nb=1" target="_blank" title="Click to share on Pocket"><span></span><span class="sharing-screen-reader-text">Click to share on Pocket (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-email share-service-visible"><a rel="nofollow" data-shared="" class="share-email sd-button share-icon no-text" href="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/?share=email&amp;nb=1" target="_blank" title="Click to email this to a friend"><span></span><span class="sharing-screen-reader-text">Click to email this to a friend (Opens in new window)</span></a></li><li class="share-tumblr"><a rel="nofollow" data-shared="" class="share-tumblr sd-button share-icon no-text" href="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/?share=tumblr&amp;nb=1" target="_blank" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr (Opens in new window)</span></a></li><li class="share-end"></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon no-text" href="https://developer.ibm.com/integration/resources/ibm-integration-bus-v10-tutorials-on-github/?share=reddit&amp;nb=1" target="_blank" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div></div></div>			</div><!-- .entry-content -->
+
+	<!--footer class="entry-footer">
+			</footer-->
+</article><!-- #post-## -->
+    			    		</main><!-- #main -->
+    	</div><!-- #primary -->
+         </div><!-- /pn-columns -->
+
+		</div><!-- #content -->
+	</div><!-- end of ibm-content-wrapper -->
+
+	<p class="ibm-ind-link ibm-nospacing ibm-icononly ibm-btt-auto ibm-hidden-small">
+		<a class="ibm-nospacing ibm-top-link" aria-label="Back to top" href="#top" tabindex="0">Back to top</a>
+	</p>
+
+	<footer role="contentinfo" aria-label="IBM" id="themeFooter">
+		<div id="boomer-footer" class="boomer_footer_menu"><div class="ibm-columns ibm-padding-bottom-0"><div class="ibm-col-1-1"><div class="dw-footer-site-links"><ul id="menu-footer"><li><a href="https://developer.ibm.com/integration/contact/">Contact us</a></li></ul></div></div></div></div>
+		<div id="dw-footer" class="ibm-alternate ibm-padding-normal">
+			<div class="ibm-columns ibm-padding-bottom-0">
+				<div class="ibm-col-1-1">
+					<div class="ibm-footer-corporate-links">
+						<ul>
+              <li><a href="https://www.ibm.com/developerworks/aboutdw/contacts.html">Contact</a></li>
+              <li><a href="https://www.ibm.com/privacy/us/en/">Privacy</a></li>
+              <li><a href="https://www.ibm.com/developerworks/community/terms/use/">Terms of use</a></li>
+              <li><a href="https://www.ibm.com/accessibility/us/en/">Accessibility</a></li>
+              
+							<li><a href="https://www.ibm.com/developerworks/secure/report/">Report Abuse</a></li>
+              <li id="ibm-truste-cp"><a onclick="truste.eu.clickListener();return false;" href="#">Cookie Preferences</a></li>
+          	<li class="ibm-feedbacklink"><a href="#">Feedback</a></li></ul>
+					</div>
+					<div id="ibm-footer-locale-selector"><h3 class="ibm-bold">Select a country/region</h3><select class="ibm-fullwidth select2-hidden-accessible ibm-widget-processed" aria-label="Select a country/region" style="width: 394px;" tabindex="-1" aria-hidden="true"><optgroup label="Worldwide ibm.com home pages"><option data-localecode="en-us" value="http://www.ibm.com/us-en/?lnk=fcc" selected="selected">United States - English</option><option data-localecode="en-af" value="http://www.ibm.com/af-en/?lnk=fcc">Afghanistan - English</option><option data-localecode="fr-dz" value="http://www.ibm.com/dz-fr/?lnk=fcc">Algeria - French</option><option data-localecode="pt-ao" value="http://www.ibm.com/ao-pt/?lnk=fcc">Angola - Portuguese</option><option data-localecode="en-ai" value="http://www.ibm.com/ai-en/?lnk=fcc">Anguilla - English</option><option data-localecode="en-ag" value="http://www.ibm.com/ag-en/?lnk=fcc">Antigua and Barbuda - English</option><option data-localecode="es-ar" value="http://www.ibm.com/ar-es/?lnk=fcc">Argentina - Spanish</option><option data-localecode="en-aw" value="http://www.ibm.com/aw-en/?lnk=fcc">Aruba - English</option><option data-localecode="en-au" value="http://www.ibm.com/au-en/?lnk=fcc">Australia - English</option><option data-localecode="de-at" value="http://www.ibm.com/at-de/?lnk=fcc">Austria - German</option><option data-localecode="en-bs" value="http://www.ibm.com/bs-en/?lnk=fcc">Bahamas - English</option><option data-localecode="en-bh" value="http://www.ibm.com/bh-en/?lnk=fcc">Bahrain - English</option><option data-localecode="en-bd" value="http://www.ibm.com/bd-en/?lnk=fcc">Bangladesh - English</option><option data-localecode="en-bb" value="http://www.ibm.com/bb-en/?lnk=fcc">Barbados - English</option><option data-localecode="nl-be" value="http://www.ibm.com/be-nl/?lnk=fcc">Belgium/Luxembourg - Dutch</option><option data-localecode="en-be" value="http://www.ibm.com/be-en/?lnk=fcc">Belgium/Luxembourg - English</option><option data-localecode="fr-be" value="http://www.ibm.com/be-fr/?lnk=fcc">Belgium/Luxembourg - French</option><option data-localecode="en-bm" value="http://www.ibm.com/bm-en/?lnk=fcc">Bermuda - English</option><option data-localecode="es-bo" value="http://www.ibm.com/bo-es/?lnk=fcc">Bolivia - Spanish</option><option data-localecode="en-bw" value="http://www.ibm.com/bw-en/?lnk=fcc">Botswana - English</option><option data-localecode="pt-br" value="http://www.ibm.com/br-pt/?lnk=fcc">Brazil - Portuguese</option><option data-localecode="en-bn" value="http://www.ibm.com/bn-en/?lnk=fcc">Brunei Darussalam - English</option><option data-localecode="bg-bg" value="http://www.ibm.com/bg-bg/?lnk=fcc">Bulgaria - Bulgarian</option><option data-localecode="fr-bf" value="http://www.ibm.com/bf-fr/?lnk=fcc">Burkina Faso - French</option><option data-localecode="en-kh" value="http://www.ibm.com/kh-en/?lnk=fcc">Cambodia - English</option><option data-localecode="en-cm" value="http://www.ibm.com/cm-en/?lnk=fcc">Cameroon - English</option><option data-localecode="fr-cm" value="http://www.ibm.com/cm-fr/?lnk=fcc">Cameroon - French</option><option data-localecode="en-ca" value="http://www.ibm.com/ca-en/?lnk=fcc">Canada - English</option><option data-localecode="fr-ca" value="http://www.ibm.com/ca-fr/?lnk=fcc">Canada - French</option><option data-localecode="en-ky" value="http://www.ibm.com/ky-en/?lnk=fcc">Cayman Islands - English</option><option data-localecode="fr-td" value="http://www.ibm.com/td-fr/?lnk=fcc">Chad - French</option><option data-localecode="es-cl" value="http://www.ibm.com/cl-es/?lnk=fcc">Chile - Spanish</option><option data-localecode="zh-cn" value="http://www.ibm.com/cn-zh/?lnk=fcc">China - Chinese (Simplified)</option><option data-localecode="es-co" value="http://www.ibm.com/co-es/?lnk=fcc">Colombia - Spanish</option><option data-localecode="fr-cg" value="http://www.ibm.com/cg-fr/?lnk=fcc">Congo - French</option><option data-localecode="fr-cd" value="http://www.ibm.com/cd-fr/?lnk=fcc">Congo, The Democratic Republic of the - French</option><option data-localecode="es-cr" value="http://www.ibm.com/cr-es/?lnk=fcc">Costa Rica - Spanish</option><option data-localecode="hr-hr" value="http://www.ibm.com/hr-hr/?lnk=fcc">Croatia - Croatian</option><option data-localecode="en-cw" value="http://www.ibm.com/cw-en/?lnk=fcc">Curacao - English</option><option data-localecode="en-cy" value="http://www.ibm.com/cy-en/?lnk=fcc">Cyprus - English</option><option data-localecode="cs-cz" value="http://www.ibm.com/cz-cs/?lnk=fcc">Czech Republic - Czech</option><option data-localecode="da-dk" value="http://www.ibm.com/dk-da/?lnk=fcc">Denmark - Danish</option><option data-localecode="en-dm" value="http://www.ibm.com/dm-en/?lnk=fcc">Dominica - English</option><option data-localecode="es-ec" value="http://www.ibm.com/ec-es/?lnk=fcc">Ecuador - Spanish</option><option data-localecode="en-eg" value="http://www.ibm.com/eg-en/?lnk=fcc">Egypt - English</option><option data-localecode="et-ee" value="http://www.ibm.com/ee-et/?lnk=fcc">Estonia - Estonian</option><option data-localecode="en-et" value="http://www.ibm.com/et-en/?lnk=fcc">Ethiopia - English</option><option data-localecode="fi-fi" value="http://www.ibm.com/fi-fi/?lnk=fcc">Finland - Finnish</option><option data-localecode="fr-fr" value="http://www.ibm.com/fr-fr/?lnk=fcc">France - French</option><option data-localecode="fr-ga" value="http://www.ibm.com/ga-fr/?lnk=fcc">Gabon - French</option><option data-localecode="de-de" value="http://www.ibm.com/de-de/?lnk=fcc">Germany - German</option><option data-localecode="en-gh" value="http://www.ibm.com/gh-en/?lnk=fcc">Ghana - English</option><option data-localecode="el-gr" value="http://www.ibm.com/gr-el/?lnk=fcc">Greece - Greek</option><option data-localecode="en-gd" value="http://www.ibm.com/gd-en/?lnk=fcc">Grenada - English</option><option data-localecode="en-gy" value="http://www.ibm.com/gy-en/?lnk=fcc">Guyana - English</option><option data-localecode="en-hk" value="http://www.ibm.com/hk-en/?lnk=fcc">Hong Kong S.A.R. of China - English</option><option data-localecode="hu-hu" value="http://www.ibm.com/hu-hu/?lnk=fcc">Hungary - Hungarian</option><option data-localecode="en-in" value="http://www.ibm.com/in-en/?lnk=fcc">India - English</option><option data-localecode="en-id" value="http://www.ibm.com/id-en/?lnk=fcc">Indonesia - English</option><option data-localecode="en-iq" value="http://www.ibm.com/iq-en/?lnk=fcc">Iraq - English</option><option data-localecode="en-ie" value="http://www.ibm.com/ie-en/?lnk=fcc">Ireland - English</option><option data-localecode="he-il" value="http://www.ibm.com/il-he/?lnk=fcc">Israel - Hebrew</option><option data-localecode="it-it" value="http://www.ibm.com/it-it/?lnk=fcc">Italy - Italian</option><option data-localecode="fr-ci" value="http://www.ibm.com/ci-fr/?lnk=fcc">Ivory Coast - French</option><option data-localecode="en-jm" value="http://www.ibm.com/jm-en/?lnk=fcc">Jamaica - English</option><option data-localecode="ja-jp" value="http://www.ibm.com/jp-ja/?lnk=fcc">Japan - Japanese</option><option data-localecode="en-jo" value="http://www.ibm.com/jo-en/?lnk=fcc">Jordan - English</option><option data-localecode="kk-kz" value="http://www.ibm.com/kz-kk/?lnk=fcc">Kazakhstan - Kazakh</option><option data-localecode="en-ke" value="http://www.ibm.com/ke-en/?lnk=fcc">Kenya - English</option><option data-localecode="ko-kr" value="http://www.ibm.com/kr-ko/?lnk=fcc">Korea, Republic of - Korean</option><option data-localecode="en-kw" value="http://www.ibm.com/kw-en/?lnk=fcc">Kuwait - English</option><option data-localecode="lv-lv" value="http://www.ibm.com/lv-lv/?lnk=fcc">Latvia - Latvian</option><option data-localecode="en-lb" value="http://www.ibm.com/lb-en/?lnk=fcc">Lebanon - English</option><option data-localecode="en-ly" value="http://www.ibm.com/ly-en/?lnk=fcc">Libya - English</option><option data-localecode="lt-lt" value="http://www.ibm.com/lt-lt/?lnk=fcc">Lithuania - Lithuanian</option><option data-localecode="fr-mg" value="http://www.ibm.com/mg-fr/?lnk=fcc">Madagascar - French</option><option data-localecode="en-mw" value="http://www.ibm.com/mw-en/?lnk=fcc">Malawi - English</option><option data-localecode="en-my" value="http://www.ibm.com/my-en/?lnk=fcc">Malaysia - English</option><option data-localecode="en-mu" value="http://www.ibm.com/mu-en/?lnk=fcc">Mauritius - English</option><option data-localecode="fr-mu" value="http://www.ibm.com/mu-fr/?lnk=fcc">Mauritius - French</option><option data-localecode="es-mx" value="http://www.ibm.com/mx-es/?lnk=fcc">Mexico - Spanish</option><option data-localecode="en-ms" value="http://www.ibm.com/ms-en/?lnk=fcc">Montserrat - English</option><option data-localecode="fr-ma" value="http://www.ibm.com/ma-fr/?lnk=fcc">Morocco - French</option><option data-localecode="pt-mz" value="http://www.ibm.com/mz-pt/?lnk=fcc">Mozambique - Portuguese</option><option data-localecode="en-na" value="http://www.ibm.com/na-en/?lnk=fcc">Namibia - English</option><option data-localecode="en-np" value="http://www.ibm.com/np-en/?lnk=fcc">Nepal - English</option><option data-localecode="nl-nl" value="http://www.ibm.com/nl-nl/?lnk=fcc">Netherlands - Dutch</option><option data-localecode="en-nz" value="http://www.ibm.com/nz-en/?lnk=fcc">New Zealand - English</option><option data-localecode="fr-ne" value="http://www.ibm.com/ne-fr/?lnk=fcc">Niger - French</option><option data-localecode="en-ng" value="http://www.ibm.com/ng-en/?lnk=fcc">Nigeria - English</option><option data-localecode="no-no" value="http://www.ibm.com/no-no/?lnk=fcc">Norway - Norwegian</option><option data-localecode="en-om" value="http://www.ibm.com/om-en/?lnk=fcc">Oman - English</option><option data-localecode="en-pk" value="http://www.ibm.com/pk-en/?lnk=fcc">Pakistan - English</option><option data-localecode="es-py" value="http://www.ibm.com/py-es/?lnk=fcc">Paraguay - Spanish</option><option data-localecode="es-pe" value="http://www.ibm.com/pe-es/?lnk=fcc">Peru - Spanish</option><option data-localecode="en-ph" value="http://www.ibm.com/ph-en/?lnk=fcc">Philippines - English</option><option data-localecode="pl-pl" value="http://www.ibm.com/pl-pl/?lnk=fcc">Poland - Polish</option><option data-localecode="pt-pt" value="http://www.ibm.com/pt-pt/?lnk=fcc">Portugal - Portuguese</option><option data-localecode="en-qa" value="http://www.ibm.com/qa-en/?lnk=fcc">Qatar - English</option><option data-localecode="ro-ro" value="http://www.ibm.com/ro-ro/?lnk=fcc">Romania - Romanian</option><option data-localecode="ru-ru" value="http://www.ibm.com/ru-ru/?lnk=fcc">Russian Federation - Russian</option><option data-localecode="en-kn" value="http://www.ibm.com/kn-en/?lnk=fcc">Saint Kitts and Nevis - English</option><option data-localecode="en-lc" value="http://www.ibm.com/lc-en/?lnk=fcc">Saint Lucia - English</option><option data-localecode="en-vc" value="http://www.ibm.com/vc-en/?lnk=fcc">Saint Vincent and the Grenadines - English</option><option data-localecode="en-sa" value="http://www.ibm.com/sa-en/?lnk=fcc">Saudi Arabia - English</option><option data-localecode="fr-sn" value="http://www.ibm.com/sn-fr/?lnk=fcc">Senegal - French</option><option data-localecode="sr-rs" value="http://www.ibm.com/rs-sr/?lnk=fcc">Serbia - Serbian</option><option data-localecode="fr-sc" value="http://www.ibm.com/sc-fr/?lnk=fcc">Seychelles - French</option><option data-localecode="en-sl" value="http://www.ibm.com/sl-en/?lnk=fcc">Sierra Leone - English</option><option data-localecode="en-sg" value="http://www.ibm.com/sg-en/?lnk=fcc">Singapore - English</option><option data-localecode="sk-sk" value="http://www.ibm.com/sk-sk/?lnk=fcc">Slovakia - Slovak</option><option data-localecode="sl-si" value="http://www.ibm.com/si-sl/?lnk=fcc">Slovenia - Slovenian</option><option data-localecode="en-za" value="http://www.ibm.com/za-en/?lnk=fcc">South Africa - English</option><option data-localecode="es-es" value="http://www.ibm.com/es-es/?lnk=fcc">Spain - Spanish</option><option data-localecode="en-lk" value="http://www.ibm.com/lk-en/?lnk=fcc">Sri Lanka - English</option><option data-localecode="en-sr" value="http://www.ibm.com/sr-en/?lnk=fcc">Suriname - English</option><option data-localecode="sv-se" value="http://www.ibm.com/se-sv/?lnk=fcc">Sweden - Swedish</option><option data-localecode="fr-ch" value="http://www.ibm.com/ch-fr/?lnk=fcc">Switzerland - French</option><option data-localecode="de-ch" value="http://www.ibm.com/ch-de/?lnk=fcc">Switzerland - German</option><option data-localecode="zh-tw" value="http://www.ibm.com/tw-zh/?lnk=fcc">Taiwan - Chinese (Traditional)</option><option data-localecode="en-tz" value="http://www.ibm.com/tz-en/?lnk=fcc">Tanzania, United Republic of - English</option><option data-localecode="en-th" value="http://www.ibm.com/th-en/?lnk=fcc">Thailand - English</option><option data-localecode="en-tt" value="http://www.ibm.com/tt-en/?lnk=fcc">Trinidad and Tobago - English</option><option data-localecode="fr-tn" value="http://www.ibm.com/tn-fr/?lnk=fcc">Tunisia - French</option><option data-localecode="tr-tr" value="http://www.ibm.com/tr-tr/?lnk=fcc">Turkey - Turkish</option><option data-localecode="en-tc" value="http://www.ibm.com/tc-en/?lnk=fcc">Turks and Caicos Islands - English</option><option data-localecode="en-ug" value="http://www.ibm.com/ug-en/?lnk=fcc">Uganda - English</option><option data-localecode="uk-ua" value="http://www.ibm.com/ua-uk/?lnk=fcc">Ukraine - Ukrainian</option><option data-localecode="en-ae" value="http://www.ibm.com/ae-en/?lnk=fcc">United Arab Emirates - English</option><option data-localecode="en-uk" value="http://www.ibm.com/uk-en/?lnk=fcc">United Kingdom - English</option><option data-localecode="es-uy" value="http://www.ibm.com/uy-es/?lnk=fcc">Uruguay - Spanish</option><option data-localecode="uz-uz" value="http://www.ibm.com/uz-uz/?lnk=fcc">Uzbekistan - Uzbek</option><option data-localecode="es-ve" value="http://www.ibm.com/ve-es/?lnk=fcc">Venezuela - Spanish</option><option data-localecode="en-vn" value="http://www.ibm.com/vn-en/?lnk=fcc">Vietnam - English</option><option data-localecode="vi-vn" value="http://www.ibm.com/vn-vi/?lnk=fcc">Vietnam - Vietnamese</option><option data-localecode="en-vg" value="http://www.ibm.com/vg-en/?lnk=fcc">Virgin Islands, British - English</option><option data-localecode="en-ye" value="http://www.ibm.com/ye-en/?lnk=fcc">Yemen - English</option><option data-localecode="en-zm" value="http://www.ibm.com/zm-en/?lnk=fcc">Zambia - English</option><option data-localecode="en-zw" value="http://www.ibm.com/zw-en/?lnk=fcc">Zimbabwe - English</option></optgroup></select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-takl-container"><span class="select2-selection__rendered" id="select2-takl-container" title="United States - English">United States - English</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div><!-- #page -->
+
+<script>
+        jQuery(document).ready(function($){
+          var dcName = 'integration';
+          // $('a').each(function(){
+          //   if(this.href.match('bluemix.net')){
+          //     if(this.search){
+          //       this.href = this.href + '&cm_sp=dw-bluemix-_-'+dcName+'-_-devcenter';
+          //     }else{
+          //       this.href = this.href + '?cm_sp=dw-bluemix-_-'+dcName+'-_-devcenter';
+          //     }
+          //   }
+          // });
+
+          jQuery('a[href*="bluemix.net"]').each(function(){
+            if(this.search){
+              this.href = this.href + '&cm_sp=dw-bluemix-_-'+dcName+'-_-devcenter';
+            }else{
+              this.href = this.href + '?cm_sp=dw-bluemix-_-'+dcName+'-_-devcenter';
+            }
+          });
+
+        });
+      </script>	<div style="display:none">
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/developer.ibm.com\/integration\/resources\/ibm-integration-bus-v10-tutorials-on-github\/":10170};
+	</script>
+			
+<script type="text/javascript" src="resequence_files/photon.js"></script>
+<script type="text/javascript" src="resequence_files/devicepx-jetpack.js"></script>
+<script type="text/javascript" src="resequence_files/gprofiles.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="resequence_files/wpgroho.js"></script>
+<script type="text/javascript" src="resequence_files/navigation.js"></script>
+<script type="text/javascript" src="resequence_files/skip-link-focus-fix.js"></script>
+<script type="text/javascript" src="resequence_files/comment-reply.js"></script>
+<script type="text/javascript" src="resequence_files/google-analytics.js"></script>
+<script type="text/javascript" src="resequence_files/tactic.js"></script>
+<script type="text/javascript" src="resequence_files/tacticbindlinks.js"></script>
+<script type="text/javascript" src="resequence_files/new-tab.js"></script>
+<script type="text/javascript">
+if (typeof window._analytics === "undefined") {
+						  window._analytics = {};
+					  }  
+			
+					 window._analytics = {
+						"segment_key":"HU3dbkAG5wE0F1IkRf9S1RexlAqo3jby",
+						"coremetrics" : false, 
+						"optimizely" : false, 
+						"googleAddServices": false, 
+						"addRoll" : false, 
+						"fullStory" : false, 
+						"intercom": false, 
+						"hotjar": false, 
+						"tealeaf": false, 
+						"nps": false
+					 };
+</script>
+<script type="text/javascript" src="resequence_files/bluemix-analytics.asc"></script>
+<script type="text/javascript" src="resequence_files/wp-embed.js"></script>
+<script type="text/javascript" src="resequence_files/devcenter.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="resequence_files/sharing.js"></script>
+<script type="text/javascript">
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-linkedin', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-google-plus-1', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-pocket', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcompocket', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-tumblr', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+</script>
+<script type="text/javascript" src="resequence_files/e-201817.js" async="async" defer="defer"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:5.9',blog:'69763369',post:'10170',tz:'0',srv:'developer.ibm.com'} ]);
+	_stq.push([ 'clickTrackerInit', '69763369', '10170' ]);
+</script>
+
+<script>
+	/* this is where we are going to control the main menu */
+	function changeMenu(links) {
+		IBMCore.common.module.masthead.editProfileMenu({
+			action: "replace",
+			links: links
+		});
+	}
+
+	var setMainMenu = function(){
+					var userLinks = [{
+				title: "Sign In",
+				url: "https://developer.ibm.com/sso/login?d=https%3A%2F%2Fdeveloper.ibm.com%2Fintegration%2Fresources%2Fibm-integration-bus-v10-tutorials-on-github&lang=en_US"
+			},
+			{
+				title: "Register",
+				url: "https://developer.ibm.com/sso/register?lang=en_US&d=https%3A%2F%2Fdeveloper.ibm.com%2Fintegration%2Fresources%2Fibm-integration-bus-v10-tutorials-on-github"
+			}];
+				changeMenu(userLinks);
+	}
+
+	IBMCore.common.module.masthead.subscribe("profileMenuReady", "customjs", setMainMenu);
+</script>
+<script>
+		(function($) {
+			$(document).ready(function(){
+				/* prevent the # links in the main menu from firing */
+				$('.ibm-sitenav-menu-list #primary-menu a').on('click.stopFakeLinks',function(e){
+					$this = $(this);
+					if($this.attr('href') === "#"){
+						return false;
+					}
+				});
+
+				/* bind the feedback click evnet */
+				jQuery('#dw-footer .ibm-feedbacklink a').on("click", function(evt) {
+			        evt.preventDefault();
+			        var iframeWidth = 970;
+			        if (window.innerWidth < 900) {
+			            iframeWidth = window.innerWidth - 80
+			        }
+			        IBMCore.common.widget.surveyccfintercept.initFeedback({
+			            survey: {
+			                height: 700,
+			                id: "web-exp",
+			                metaData: "",
+			                type: "medallia",
+			                width: iframeWidth
+			            }
+			        })
+			   });
+				//testing out the alpha helper
+				$('[data-alpha]').each(function(i){
+					$elm = $(this);
+					var bg = $elm.css('backgroundColor').replace(/[rgb(]/g,'').replace(/ /g,'').replace(/[)]/g,'');
+					var alpha = $elm.data('alpha')/100;
+					$elm.css("cssText", "background-color: rgba("+bg+","+alpha+") !important;");
+				})
+				//testing out the panel slider
+				$('.pn-sliding-panels').each(function(i){
+					$elm = $(this);
+					//get the width of the active panel
+					var activeWidth = $elm.data('openamount'),
+						panelCount = $elm.data('panelcount'),
+						inactiveWidth = ((100 - activeWidth) / (panelCount-1));
+					//set the first slide as active - later, allow it to be set
+					$elm.find('.pn-panel').each(function(i,item){
+						$panel = $(item);
+						$panel.data('closedwidth',inactiveWidth);
+						$panel.data('openwidth',activeWidth);
+						if(i == 0){
+							$panel.addClass('pn-panel__active').css({width:activeWidth+'%'});
+						}else{
+							$panel.css({width:inactiveWidth+'%'});
+						}
+					});
+
+					$elm.on('click.slide','.pn-panel',function(e){
+						$this = $(this);
+						//console.info('clicked')
+						if($this.hasClass('pn-panel__active')){
+							//allow for the links in the active panel to be clicked
+							//console.info('im open, let the links through')
+						}else{
+							e.preventDefault();
+							//set the width of the currently active panel to the closed amount
+							var $active = $this.parents('.pn-sliding-panels').find('.pn-panel__active');
+								$active.css({width:$active.data('closedwidth')+'%'}).removeClass('pn-panel__active');
+							$this.addClass('pn-panel__active').css({width:$this.data('openwidth')+'%'});
+						}
+
+					})
+				});
+
+			})
+		})( jQuery );
+	</script>
+
+	<script>(function($) {
+$(document).ready(function(){
+
+	$.getJSON("https://ot4i.github.io/iib-tutorials/en/repo_metadata.json", function(result){
+            $.each(result, function(i, field){
+	  if (i == 'categories') {
+                var arr = field[0].tutorials;
+                // $("div").append(i + " " + arr[0].name);
+		$.each(arr, function( index, value ) {
+			var name = value.name;
+			var shortDesc = value.shortDesc;
+			var detailsURL = value.detailsURL;
+			var detailsURLs = detailsURL.replace("http:", "https:");
+			var stepsURL = value.stepsURL;
+			var stepsURLs = stepsURL.replace("http:", "https:");
+			var zipURL = value.zipURL;
+			//   alert( index + ": " + detailsURL );
+			$( "#placeholder" ).append("<div class='tutorial'><h3>"+name+"</h3><p>"+shortDesc+"</p><ul><li class='details'><span class='detailsURL pseudolink' data-detailurl='"+detailsURLs+"' title='Read an overview of this tutorial'>Details</span></li>"+"<li class='download'><a href='"+zipURL+"' title='Download the project interchange archive file for this tutorial'>Download archive (ZIP)</a></li>"+"<li class='steps'><span class='stepsURL pseudolink' data-stepurl='"+stepsURLs+"' title='Steps to complete this tutorial (opens in a model dialog)'>Steps</span></li>"+"</ul></div>" );
+		}); // each
+	  }; // if categories
+          }); // each
+     }); // getJSON
+
+	
+	// Display Steps content in a modal dialog, and remove the Cleanup div
+	$("#placeholder").on("click", "span.stepsURL", function(){
+   		var spantitle = 'Steps to complete this tutorial';
+		// alert("title = "+spantitle);
+
+		var stepurl = $(this).data("stepurl");
+		// alert(stepurl);
+		
+		$.ajax({
+			url: stepurl,  //Pass URL here 
+			type: "GET", //Also use GET method
+			success: function(data) {
+			var stepsdiv = $(data).find('#panel41').html();
+			var stepsdivs = stepsdiv.replace("http:", "https:");
+				// alert(stepsdiv);
+			// Add the dialog div to the page body
+			$( "#placeholder" ).append("<div class='stepsdiv' title='Steps'>"+stepsdivs+"</div>");
+			// Remove the Cleanup div from the dialog div in the page body
+			$( ".tkaction" ).parent().remove();
+			
+        // var dialog = $('<div title="Steps"></div>').append(div.stepsdiv);
+		var wWidth = $(window).width();
+		var dWidth = wWidth * 0.8;
+        var wHeight = $(window).height();
+        var dHeight = wHeight * 0.8;
+		
+		// close function - when close, completely remove the dialog div from the page body
+		$( ".stepsdiv" ).dialog({
+			modal: true,
+            title: spantitle,
+            width: dWidth,
+            height: dHeight,
+			open: function () {
+				$(this).scrollTop(50);
+				},
+			close: function(event, ui) {
+				$(this).dialog('destroy').remove();
+				}
+            });
+
+			return false;
+			}
+		});
+
+        return false;
+	});
+
+
+	// Display Details content in a modal dialog, and remove the buttons
+	$("#placeholder").on("click", "span.detailsURL", function(){
+   		var spantitle = 'An overview of this tutorial';
+		var detailsurl = $(this).data("detailurl");
+		// alert("title = "+spantitle + " href = "+detailsurl);
+
+		$.ajax({
+			url: detailsurl,  //Pass URL here 
+			type: "GET", //Also use GET method
+			context: document.body,
+			success: function(data) {
+
+			// alert(data);
+			// var details = $(data).find('div.content-details').parent().parent().html();
+			
+			var detail = $(data).find('div.large-6').closest('div.content-details').html();
+			var details = detail.replace("http:", "https:");
+
+			// alert(details);
+			// Add the dialog div to the page body
+			$( "#placeholder" ).append("<div class='detailsdiv' title='Details'>"+details+"</div>");
+			// Remove the Cleanup div from the dialog div in the page body
+			$( ".detailsdiv action" ).remove();
+			$( ".detailsdiv #backToGallery" ).remove();
+			
+		var wWidth = $(window).width();
+		var dWidth = wWidth * 0.8;
+        var wHeight = $(window).height();
+        var dHeight = wHeight * 0.8;
+		
+		// close function - when close, completely remove the dialog div from the page body
+		$( ".detailsdiv" ).dialog({
+			modal: true,
+            title: spantitle,
+            width: dWidth,
+            height: dHeight,
+			open: function () {
+				$(this).scrollTop(0);
+				},
+			close: function(event, ui) {
+				$(this).dialog('destroy').remove();
+				}
+            });
+
+			return false;
+			}
+		});
+
+        return false;
+	});
+
+});
+
+function openHelpSystem(fileurl) {
+	var kcurl = 'http://www.ibm.com/support/knowledgecenter/SSMKHH_10.0.0' + fileurl;
+	var win = window.open(kcurl, '_blank');
+	if (win) {
+		//Browser has allowed it to be opened
+		win.focus();
+	} else {
+		//Browser has blocked it
+		alert('Please allow popups for this website');
+	}
+}
+})( jQuery );</script>
+
+
+<div id="ibm-overlay-backdrop"></div><div id="wp-a11y-speak-polite" aria-live="polite" aria-relevant="additions text" aria-atomic="true" class="screen-reader-text wp-a11y-speak-region"></div><div id="wp-a11y-speak-assertive" aria-live="assertive" aria-relevant="additions text" aria-atomic="true" class="screen-reader-text wp-a11y-speak-region"></div><div class="pn-modal-overlay" style="display: none;"></div><div class="pn-modal" style="display: none;"><div class="pn-modal-wrap"><div class="pn-modal-hd">Header Here</div><div class="pn-modal-bd"></div><div class="pn-modal-ft"></div><a href="#" class="pn-modal-close">x</a></div></div><div id="sharing_email" style="display: none;">
+		<form action="/integration/resources/ibm-integration-bus-v10-tutorials-on-github/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input name="target_email" id="target_email" type="email">
+
+			
+				<label for="source_name">Your Name</label>
+				<input name="source_name" id="source_name" type="text">
+
+				<label for="source_email">Your Email Address</label>
+				<input name="source_email" id="source_email" type="email">
+
+						<input id="jetpack-source_f_name" name="source_f_name" class="input" size="25" autocomplete="off" title="This field is for validation and should not be changed" type="text">
+			
+			<img style="float: right; display: none" class="loading" src="resequence_files/loading.gif" alt="loading" height="16" width="16">
+			<input value="Send Email" class="sharing_send" type="submit">
+			<a rel="nofollow" href="#cancel" class="sharing_cancel">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div><img src="resequence_files/g.gif" alt=":)" id="wpstats" height="5" width="6"><iframe scrolling="no" allowtransparency="true" src="resequence_files/widget_iframe.html" style="display: none;" frameborder="0"></iframe><div id="ibm-mobilemenu-screen"></div><iframe id="rufous-sandbox" scrolling="no" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: medium none;" title="Twitter analytics iframe" frameborder="0"></iframe><iframe id="LOTCCFrameThu Apr 26 2018 21:47:05 GMT+0530 (IST)" src="resequence_files/rtifr.html" title="empty" tabindex="-1" role="presentation" style="border: 0px none; width: 0px; height: 0px; display: block;"></iframe><script src="resequence_files/js_002" id="mm_pp_background"></script><iframe style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;" name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="resequence_files/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"></iframe><iframe style="visibility: hidden; display: none;" src="resequence_files/iframe.html" id="mm_batch_supply_background"></iframe><iframe style="visibility: hidden; display: none;" src="resequence_files/iframe_002.html" id="mm_sync_back_ground"></iframe><div id="ads"></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable ui-resizable" style="position: absolute; height: auto; width: 1240px; top: 993px; left: 150.5px; display: block;" tabindex="-1" role="dialog" aria-describedby="ui-id-1" aria-labelledby="ui-id-2"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix ui-draggable-handle"><span id="ui-id-2" class="ui-dialog-title">Steps to complete this tutorial</span><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" title="Close"><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">Close</span></button></div><div class="stepsdiv ui-dialog-content ui-widget-content" id="ui-id-1" style="width: auto; min-height: 0px; max-height: none; height: 584.4px;">
+		    		
+		    		<div class="small-10 medium-10 large-10 columns divider">
+					
+				    	<div class="row content-details">
+					      	<h4></h4>
+					        
+						    
+								<p> </p><h4>Use the Flow Exerciser to test the tutorial scenario </h4><p></p>
+								
+								
+									
+									<ol>
+									
+									
+										<li> Open <span class="resource">Resequence.msgflow</span>.
+										
+										
+											
+											<ul>
+											
+												
+													<li> Click the Flow Exerciser icon <img src="resequence_files/startFlowExerciser.png" alt=""> to start testing the flow</li>
+												
+													<li> A test input file <span class="resource">input.csv</span>
+ is provided in the Resquence application. Copy this to the input 
+directory which you configured in the Prepare step (by default this is <span class="varname">C:\IIB_Resequence_Tutorial_Input</span>).</li>
+												
+													<li> Navigate to the output directory which you configured in the Prepare step (by default this is <span class="varname">C:\IIB_Resequence_Tutorial_Output</span>) and open the output file, <span class="resource">output.csv</span>.
+ You will see that the output file has the rows rearranged into the 
+correct order based upon their sequence numbers at the end of each row 
+of data:<br><span class="resource">Department01,Smith,Robert,Brandon,1988-03-24,1<br>Department01,Johnson,John,Martin,1986-01-23,2<br>Department01,Jones,Arya,Cat,1986-02-19,3<br>Department01,Bonham,John,Henry,1948-05-31,4<br>Department01,Walters,Amanda,Louise,1966-08-01,5</span></li>
+												
+													<li> Return to <span class="resource">Resequence.msgflow</span> and click the View Path icon <img src="resequence_files/viewPath.png" alt="">
+ to see the path which the file data took through the flow. Click on the
+ flow wires before and after the resequence node to view the message 
+data. You will see that there is a drop down box which enables you to 
+view the messages in the order in which they passed through the flow. 
+Note that the order is different before and after the resequence node.</li>
+												
+											
+											</ul>
+											
+										
+										</li>
+									
+									
+									</ol>
+									
+								
+							
+								<p> This tutorial has shown the Resequence node reordering 
+messages passing through a message flow based upon their sequence 
+numbers. </p>
+								
+							
+						</div>
+						
+						<div class="row content-details"> 	
+							<h4>Find out more</h4>
+							<ul>
+							
+								
+																
+								<li> <a href="javascript:;" onclick="openHelpSystem('/com.ibm.etools.mft.doc/bc28000_.htm')" title="Knowledge Center link to Resequence node">Resequence node</a> </li>
+							   	
+							
+								
+																
+								<li> <a href="javascript:;" onclick="openHelpSystem('/com.ibm.etools.mft.doc/rt26110_.htm')" title="Knowledge Center link to Testing your message flow by using the Flow exerciser">Testing your message flow by using the Flow exerciser</a> </li>
+							   	
+							
+							</ul>
+						</div>
+							
+					</div>
+					
+					
+					
+				</div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div></div><div class="ui-widget-overlay ui-front" style="z-index: 1000;"></div></body></html>
